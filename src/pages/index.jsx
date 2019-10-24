@@ -2,7 +2,7 @@ import React from 'react'
 import { Box, Flex, Text, Image, Link } from 'rebass/styled-components'
 // import { StaticQuery, graphql } from 'gatsby'
 // import Img from 'gatsby-image'
-// import Emoji from 'a11y-react-emoji'
+import Emoji from 'a11y-react-emoji'
 import { FaFacebook } from 'react-icons/fa'
 
 import icon from '../images/icon.png'
@@ -41,43 +41,51 @@ function Hero () {
       }}
     >
       <Image flex='2' src={icon} />
-      <Text
-        as='h1'
-        p={3}
-        color={'white'}
+      <Flex
+        flexDirection='row'
+        justifyContent='center'
+        alignItems='baseline'
         fontSize={[5, 6, 7]}
-        fontFamily='headline'
-        fontWeight='bold'
-        flex='1'
-        sx={{
-          '-webkitTextStroke': ['1px #000', '1px #000', '2px #000'],
-          textShadow: [
-            `
-               2px 2px 0 #000,
-             -1px -1px 0 #000,  
-              1px -1px 0 #000,
-              -1px 1px 0 #000,
-               1px 1px 0 #000
-            `,
-            `
-               4px 4px 0 #000,
-             -1px -1px 0 #000,  
-              1px -1px 0 #000,
-              -1px 1px 0 #000,
-               1px 1px 0 #000
-            `,
-            `
-               8px 8px 0 #000,
-             -2px -2px 0 #000,  
-              2px -2px 0 #000,
-              -2px 2px 0 #000,
-               2px 2px 0 #000
-            `
-          ]
-        }}
       >
-        Art~Hack
-      </Text>
+        <Text as={Emoji} mx={3} symbol='✨' label='sparkles' />
+        <Text
+          as='h1'
+          p={3}
+          color={'white'}
+          fontFamily='headline'
+          fontWeight='bold'
+          flex='1'
+          sx={{
+            '-webkitTextStroke': ['1px #000', '1px #000', '2px #000'],
+            textShadow: [
+              `
+                 2px 2px 0 #000,
+               -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                -1px 1px 0 #000,
+                 1px 1px 0 #000
+              `,
+              `
+                 4px 4px 0 #000,
+               -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                -1px 1px 0 #000,
+                 1px 1px 0 #000
+              `,
+              `
+                 8px 8px 0 #000,
+               -2px -2px 0 #000,  
+                2px -2px 0 #000,
+                -2px 2px 0 #000,
+                 2px 2px 0 #000
+              `
+            ]
+          }}
+        >
+          Art~Hack
+        </Text>
+        <Text as={Emoji} mx={3} symbol='🌈' label='rainbow' />
+      </Flex>
       <Text
         as='p'
         p={3}
