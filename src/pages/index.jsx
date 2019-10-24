@@ -42,20 +42,29 @@ function Hero () {
     >
       <Image flex='2' src={icon} />
       <Flex
+        flex='1'
         flexDirection='row'
         justifyContent='center'
         alignItems='baseline'
+        flexWrap='wrap'
         fontSize={[5, 6, 7]}
       >
-        <Text as={Emoji} mx={3} symbol='✨' label='sparkles' />
+        <Text
+          as={Emoji}
+          mx={3}
+          symbol='✨'
+          label='sparkles'
+          sx={{ order: [1, 0, 0] }}
+        />
         <Text
           as='h1'
           p={3}
           color={'white'}
           fontFamily='headline'
           fontWeight='bold'
-          flex='1'
+          flex={['100%', 1, 1]}
           sx={{
+            order: [0, 1, 1],
             '-webkitTextStroke': ['1px #000', '1px #000', '2px #000'],
             textShadow: [
               `
@@ -84,7 +93,7 @@ function Hero () {
         >
           Art~Hack
         </Text>
-        <Text as={Emoji} mx={3} symbol='🌈' label='rainbow' />
+        <Text as={Emoji} mx={3} symbol='🌈' label='rainbow' sx={{ order: 2 }} />
       </Flex>
       <Text
         as='p'
