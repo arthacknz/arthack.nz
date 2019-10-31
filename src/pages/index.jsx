@@ -40,7 +40,7 @@ function Hero () {
         */
       }}
     >
-      <Image flex='2' src={icon} />
+      <Image height='30vh' src={icon} />
       <Flex
         flex='1'
         flexDirection='row'
