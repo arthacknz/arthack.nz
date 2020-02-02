@@ -1,15 +1,16 @@
 import React from 'react'
-import { Box, Flex, Text, Image, Link } from 'rebass/styled-components'
+import { Flex, Text, Image, Link } from 'rebass/styled-components'
 // import { StaticQuery, graphql } from 'gatsby'
 // import Img from 'gatsby-image'
 import Emoji from 'a11y-react-emoji'
-import { FaFacebook } from 'react-icons/fa'
+import { FaFacebook, FaYoutube } from 'react-icons/fa'
 
 import icon from '../images/icon.png'
 import Layout from '../components/layout'
 
 const meta = {
-  facebookUrl: 'https://www.facebook.com/groups/714447698702058/'
+  facebookUrl: 'https://www.facebook.com/groups/714447698702058/',
+  youtubeUrl: 'https://www.youtube.com/channel/UCSkR9Zqo9Cf-kmOoGYupy7Q'
 }
 
 function LandingPage () {
@@ -146,9 +147,14 @@ function Section (props) {}
 function SocialIcons (props) {
   const { isWhite } = props
   return (
-    <Link href={meta.facebookUrl}>
-      <FaFacebook size={'4em'} color={isWhite ? 'white' : '#3b5998'} />
-    </Link>
+    <Flex flexDirection='row' justifyContent='center' alignItems='center'>
+      <Link marginX={3} href={meta.facebookUrl}>
+        <FaFacebook size={'4em'} color={isWhite ? 'white' : '#3b5998'} />
+      </Link>
+      <Link marginX={3} href={meta.youtubeUrl}>
+        <FaYoutube size={'4em'} color={isWhite ? 'white' : '#e52d27'} />
+      </Link>
+    </Flex>
   )
 }
 
