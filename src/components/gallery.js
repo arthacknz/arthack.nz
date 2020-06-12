@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
-import ReactPlayer from 'react-player/lazy'
+import ReactPlayer from 'react-player'
 import { useInView } from 'react-intersection-observer'
 import { useWindowWidth } from '@react-hook/window-size'
 import { Box, Flex, Text } from 'rebass'
@@ -53,6 +53,9 @@ function GalleryItem (props) {
   }
 
   const width = usePlayerWidth()
+  const height = useMemo(() => {
+    return calculateHeight(width, aspect)
+  }, [width, aspect])
 
   const [ref, inView] = useInView({
     threshold: 0
@@ -61,12 +64,6 @@ function GalleryItem (props) {
   const formattedCreatedAt = useMemo(() => {
     return new Date(createdAt).toLocaleDateString()
   }, [createdAt])
-
-  const height = useMemo(() => {
-    return calculateHeight(width, aspect)
-  }, [width, aspect])
-
-  console.log('height', height)
 
   return (
     <Flex
@@ -162,6 +159,8 @@ function usePlayerWidth () {
     return 960
   } else if (windowWidth >= 640) {
     return 640
+  } else {
+    return 320
   }
 }
 
