@@ -1,455 +1,1007 @@
+# hello!
+#
+# thanks for contributing :D
+
 - type: facebook
-  permalinkUrl: /groups/arthacknz/permalink/2148381838641963/
   url: https://www.facebook.com/michaeljwilliams/videos/10220790361722888/
+  permalinkUrl: /groups/arthacknz/permalink/2148381838641963/
+  createdAt: 2020-06-11T10:25:43+0000
   title: does your computer ever seem to have a mind of its own?
   description: does your computer ever seem to have a mind of its own? 🤖🌈
-  createdAt: 2020-06-11T10:25:43+0000
+
 - type: facebook
+  url: 'https://www.facebook.com/michaeljwilliams/videos/10220789614744214'
   permalinkUrl: "/groups/arthacknz/permalink/2148316485315165/"
+  createdAt: '2020-06-11T08:34:35+0000'
   title: tidal cycles wih @davidalexandercurrie
   description: tidal cycles with @davidalexandercurrie
-  createdAt: '2020-06-11T08:34:35+0000'
-  url: 'https://www.facebook.com/michaeljwilliams/videos/10220789614744214'
+
 - type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/2140572146089599/"
-  description: "jam \U0001F308\U0001F483"
-  createdAt: '2020-06-04T10:40:25+0000'
   url: 'https://www.facebook.com/michaeljwilliams/videos/10220724172588201'
+  permalinkUrl: "/groups/arthacknz/permalink/2140572146089599/"
+  createdAt: '2020-06-04T10:40:25+0000'
+  title: "jam \U0001F308\U0001F483"
+
 - type: facebook
+  url: 'https://www.facebook.com/michaeljwilliams/videos/10220660168548140'
   permalinkUrl: "/groups/arthacknz/permalink/2133187930161354/"
+  createdAt: '2020-05-28T09:47:03+0000'
   title: live hack art feed
   description: "live hack art feed \U0001F483\U0001F33B\U0001F308"
-  createdAt: '2020-05-28T09:47:03+0000'
-  url: 'https://www.facebook.com/michaeljwilliams/videos/10220660168548140'
+
 - type: facebook
+  url: 'https://www.facebook.com/michaeljwilliams/videos/10220593133832314'
   permalinkUrl: "/groups/arthacknz/permalink/2125844910895656/"
+  createdAt: '2020-05-21T09:45:34+0000'
   title: chill~hack
   description: "chill~hack using our homegrown feed~hack \U0001F966"
-  createdAt: '2020-05-21T09:45:34+0000'
-  url: 'https://www.facebook.com/michaeljwilliams/videos/10220593133832314'
+
 - type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/2111189635694517/"
-  description: faceberg
-  createdAt: '2020-05-07T09:27:24+0000'
   url: 'https://www.facebook.com/matt.mckegg/videos/10223671649800810'
+  permalinkUrl: "/groups/arthacknz/permalink/2111189635694517/"
+  createdAt: '2020-05-07T09:27:24+0000'
+  title: faceberg
+
 - type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/2111182075695273/"
-  description: anarchy stream.
-  createdAt: '2020-05-07T09:16:29+0000'
   url: 'https://www.facebook.com/matt.mckegg/videos/10223671567158744'
+  permalinkUrl: "/groups/arthacknz/permalink/2111182075695273/"
+  createdAt: '2020-05-07T09:16:29+0000'
+  title: anarchy stream.
+
 - type: facebook
+  url: 'https://www.facebook.com/matt.mckegg/videos/10223671104267172'
   permalinkUrl: "/groups/arthacknz/permalink/2111118325701648/"
   createdAt: '2020-05-07T07:38:11+0000'
-  url: 'https://www.facebook.com/matt.mckegg/videos/10223671104267172'
-- type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/2096186637194817/"
-  description: LIVE HACK ART STREAM RETURNS
-  createdAt: '2020-04-23T10:34:28+0000'
-  url: 'https://www.facebook.com/matt.mckegg/videos/10223497394004524'
-- type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/2096174947195986/"
-  description: LIVE HACK ART STREAM
-  createdAt: '2020-04-23T10:14:40+0000'
-  url: 'https://www.facebook.com/matt.mckegg/videos/10223497204639790'
-- type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/2096095767203904/"
-  description: |-
-    live stream from feedhack
 
-    Edit: for future folks, this was the first ever broadcast produced by Feedhack. I was demoing it at the show and tell and did a live stream to prove it works. 
+- type: facebook
+  url: 'https://www.facebook.com/bennolan/videos/10158312234416798/'
+  createdAt: 2020-04-27
+  title: Ben and Jasper (and Rissa) made a video.
+
+- type: facebook
+  url: 'https://www.facebook.com/matt.mckegg/videos/10223497394004524'
+  permalinkUrl: "/groups/arthacknz/permalink/2096186637194817/"
+  createdAt: '2020-04-23T10:34:28+0000'
+  title: LIVE HACK ART STREAM RETURNS
+
+- type: facebook
+  url: 'https://www.facebook.com/matt.mckegg/videos/10223497204639790'
+  permalinkUrl: "/groups/arthacknz/permalink/2096174947195986/"
+  createdAt: '2020-04-23T10:14:40+0000'
+  title: LIVE HACK ART STREAM
+
+- type: facebook
+  url: 'https://www.facebook.com/matt.mckegg/videos/10223496661426210'
+  permalinkUrl: "/groups/arthacknz/permalink/2096095767203904/"
+  createdAt: '2020-04-23T08:10:42+0000'
+  title: live stream from feedhack
+  description: |-
+    this was the first ever broadcast produced by Feedhack. I was demoing it at the show and tell and did a live stream to prove it works. 
 
     The other 3 streams this evening were all produced with Feedhack. We were ironing out bugs as the night went on. 
 
     What’s feedhack? Join us for art hack next week and find out! You’ll see soon! Ohhh yesss you will!",
-  createdAt: '2020-04-23T08:10:42+0000'
-  url: 'https://www.facebook.com/matt.mckegg/videos/10223496661426210'
+
 - type: facebook
+  url: 'https://www.facebook.com/matt.mckegg/videos/10223405011135010'
   permalinkUrl: "/groups/arthacknz/permalink/2088816261265188/"
+  createdAt: '2020-04-16T13:27:11+0000'
+  title: 'feed~hack genesis'
   description: feed~hack! We streamed all of our OBS's to each other and then did
     effects. It was a good art~hack.
-  createdAt: '2020-04-16T13:27:11+0000'
-  url: 'https://www.facebook.com/matt.mckegg/videos/10223405011135010'
+
 - type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/2088625607950920/"
-  description: "HI TECK NEW FANGLED STREAMING SYSTEM!!!!!!!!11111~~~\U0001F414"
-  createdAt: '2020-04-16T09:31:03+0000'
   url: 'https://www.facebook.com/matt.mckegg/videos/10223402919202713'
+  permalinkUrl: "/groups/arthacknz/permalink/2088625607950920/"
+  createdAt: '2020-04-16T09:31:03+0000'
+  title: "HI TECK NEW FANGLED STREAMING SYSTEM!!!!!!!!11111~~~\U0001F414"
+
 - type: facebook
+  url: 'https://www.facebook.com/daniel.aston.75/videos/10163496492765717'
   permalinkUrl: "/groups/arthacknz/permalink/2081071568706324/"
   createdAt: '2020-04-09T10:12:10+0000'
-  url: 'https://www.facebook.com/daniel.aston.75/videos/10163496492765717'
+
 - type: facebook
+  url: 'https://www.facebook.com/jack.purvis.23/videos/2998608653495155'
   permalinkUrl: "/groups/arthacknz/permalink/2081068672039947/"
   createdAt: '2020-04-09T10:20:55+0000'
-  url: 'https://www.facebook.com/jack.purvis.23/videos/2998608653495155'
+
 - type: facebook
+  url: 'https://www.facebook.com/jack.purvis.23/videos/2998582243497796'
   permalinkUrl: "/groups/arthacknz/permalink/2081059382040876/"
   createdAt: '2020-04-09T10:02:36+0000'
-  url: 'https://www.facebook.com/jack.purvis.23/videos/2998582243497796'
+
 - type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/2081039498709531/"
-  description: world of internet pipes live
-  createdAt: '2020-04-09T09:35:40+0000'
   url: 'https://www.facebook.com/matt.mckegg/videos/10223320694627150'
+  permalinkUrl: "/groups/arthacknz/permalink/2081039498709531/"
+  createdAt: '2020-04-09T09:35:40+0000'
+  title: world of internet pipes live
+
 - type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/2073620016118146/"
-  description: We're live!!
-  createdAt: '2020-04-02T07:37:24+0000'
   url: 'https://www.facebook.com/matt.mckegg/videos/10223238188284543'
+  permalinkUrl: "/groups/arthacknz/permalink/2073620016118146/"
+  createdAt: '2020-04-02T07:37:24+0000'
+  title: We're live!!
+
 - type: facebook
+  url: 'https://www.facebook.com/matt.mckegg/videos/10223147533698235'
   permalinkUrl: "/groups/arthacknz/permalink/2065870890226392/"
   createdAt: '2020-03-26T08:15:09+0000'
-  url: 'https://www.facebook.com/matt.mckegg/videos/10223147533698235'
+
+- type: youtube
+  url: https://www.youtube.com/watch?v=NLqxr_S5zwU
+  createdAt: 2020-03-19T08:30:00
+  title: Eulerroom Equinox 2020 - ARTHACK.NZ Algorave - upcycle.tech and VISOR - 19 March 2020 08:30
+  description: |-
+    Eulerroom Equinox 2020 live performance by upcycle.tech and VISOR as part of the ARTHACK.NZ Algorave from Wellington, New Zealand
+
+    TidalCycles tunes from David (upcycle.tech) + live coded visuals from Jack (VISOR)
+
+    Website: www.arthack.nz
+
+- type: youtube
+  url: https://www.youtube.com/watch?v=_K57O4xmAE8
+  createdAt: 2020-03-19T08:00:00
+  title: 'Eulerroom Equinox 2020 - ARTHACK.NZ Algorave - DESTROY WITH SCIENCE and VISOR -19 March 2020 08:00'
+  description: |-
+    Eulerroom Equinox 2020 live performance by DESTROY WITH SCIENCE and VISOR as part of the ARTHACK.NZ Algorave from Wellington, New Zealand
+
+    Improvised music from Matt (DESTROY WITH SCIENCE) + live coded visuals from Jack (VISOR)
+
+    Website: www.arthack.nz
+
+- type: soundcloud
+  url: https://soundcloud.com/destroy-with-science/arthack-20-feb-2020
+  createdAt: 2020-02-21T04:09:12.000Z
+  title: Art~Hack 20 February 2020
+  description: arrrrttt~haccckkkkkkkk 🧟🧟🧟🧟🧟🧟
+
+- type: youtube
+  url: https://www.youtube.com/watch?v=FQhZPg9Hkl8
+  createdAt: 2019-11-15
+  title: WOOPITY DOOP BASS LORDS (a/v jam 15 November 2019)
+  description: We have fun here. Featuring live coded visuals by Jack and Nick! Improv beats/vox by Matt and Mikey!
+
+- type: youtube
+  url: https://www.youtube.com/watch?v=UuQ5NT4Kukk
+  createdAt: 2019-11-07
+  title: BREAKBEATS ARE AWESOME (improv session)
+  description: |-
+    I like breakbeats, so I played some breakbeats at Art~Hack last night. Horray for breakbeats!!!
+
+    🎛💒🚨🥁🕺⚡️
+
 - type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/1862666367213513/"
-  description: "It’s art hack lol \U0001F920"
-  createdAt: '2019-10-03T09:40:14+0000'
   url: 'https://www.facebook.com/matt.mckegg/videos/10221301766915219'
+  permalinkUrl: "/groups/arthacknz/permalink/1862666367213513/"
+  createdAt: '2019-10-03T09:40:14+0000'
+  description: "It’s art hack lol \U0001F920"
+
 - type: facebook
+  url: 'https://www.facebook.com/lotte.vanginkel.7/videos/2341142389459965/'
   permalinkUrl: "/groups/arthacknz/permalink/1856075281205955/"
+  createdAt: '2019-09-26T23:14:48+0000'
   description: |-
     Heya! =) 
 
     I probably won't be able to make it to Art Hack anymore sadly because I am overseas for study till the 2 weeks before we graduate and I move away, but I just wanted to show you the results of the LED project I was working on during the meet-ups I attended.
 
     Thanks everyone so much for your help! <3
-  createdAt: '2019-09-26T23:14:48+0000'
-  url: 'https://www.facebook.com/lotte.vanginkel.7/videos/2341142389459965/'
   aspect: '640:1143'
+
 - type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/1855435511269932/"
-  description: Live stroooom
-  createdAt: '2019-09-26T09:14:49+0000'
   url: 'https://www.facebook.com/matt.mckegg/videos/10221234567195268'
+  permalinkUrl: "/groups/arthacknz/permalink/1855435511269932/"
+  createdAt: '2019-09-26T09:14:49+0000'
+  title: Live stroooom
+
 - type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/1841717572641726/"
-  description: Here we go live stream, here we go!
-  createdAt: '2019-09-12T09:28:06+0000'
   url: 'https://www.facebook.com/matt.mckegg/videos/10221112403741258'
+  permalinkUrl: "/groups/arthacknz/permalink/1841717572641726/"
+  createdAt: '2019-09-12T09:28:06+0000'
+  title: Here we go live stream, here we go!
+
 - type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/1713296175483867/"
-  description: The vibes
-  createdAt: '2019-04-25T10:08:51+0000'
   url: 'https://www.facebook.com/matt.mckegg/videos/10219917238742880'
+  permalinkUrl: "/groups/arthacknz/permalink/1713296175483867/"
+  createdAt: '2019-04-25T10:08:51+0000'
+  title: The vibes
+
 - type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/1631359063677579/"
-  description: Deck jam take 2
-  createdAt: '2019-01-17T08:34:21+0000'
+  url: https://www.facebook.com/destroywithscience/videos/1241298226026939/
+  createdAt: 2019-04-18
+  title: Art~Hack Jam 18 April 2019 (the big finish)
+  description: Some gentle chords and beats to come off a pretty hard art~hack jam this evening.
+
+- type: facebook
   url: 'https://www.facebook.com/matt.mckegg/videos/10219087701364964'
+  permalinkUrl: "/groups/arthacknz/permalink/1631359063677579/"
+  createdAt: '2019-01-17T08:34:21+0000'
+  title: Deck jam take 2
+
 - type: facebook
+  url: 'https://www.facebook.com/matt.mckegg/videos/10219087652483742'
   permalinkUrl: "/groups/arthacknz/permalink/1631355870344565/"
+  createdAt: '2019-01-17T08:25:55+0000'
   title: On the deck
   description: Deck hack!
-  createdAt: '2019-01-17T08:25:55+0000'
-  url: 'https://www.facebook.com/matt.mckegg/videos/10219087652483742'
+
 - type: facebook
+  url: 'https://www.facebook.com/matt.mckegg/videos/10219032128455676'
   permalinkUrl: "/groups/arthacknz/permalink/1625537317593087/"
+  createdAt: '2019-01-10T10:27:10+0000'
+  title: late night couch stream
   description: |-
     Late night couch stream with DESTROY WITH SCIENCE (music) and Jack
     Purvis AKA Visor (live coded visuals)
-  createdAt: '2019-01-10T10:27:10+0000'
-  url: 'https://www.facebook.com/matt.mckegg/videos/10219032128455676'
+
 - type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/1583321681814651/"
-  description: We're back!
-  createdAt: '2018-11-22T09:21:02+0000'
   url: 'https://www.facebook.com/matt.mckegg/videos/10218630239128694'
+  permalinkUrl: "/groups/arthacknz/permalink/1583321681814651/"
+  createdAt: '2018-11-22T09:21:02+0000'
+  title: We're back!
+
 - type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/1583271481819671/"
-  description: "Shiny things are a foot! ✨\U0001F463"
-  createdAt: '2018-11-22T07:38:42+0000'
   url: 'https://www.facebook.com/matt.mckegg/videos/10218629573832062'
+  permalinkUrl: "/groups/arthacknz/permalink/1583271481819671/"
+  createdAt: '2018-11-22T07:38:42+0000'
+  title: "Shiny things are a foot! ✨\U0001F463"
+
+- type: soundcloud
+  url: https://soundcloud.com/destroy-with-science/merge-with-the-machine
+  createdAt: 2018-11-17T05:46:41.000Z
+  title: Merge With The Machine (live at Art~Hack)
+  description: |-
+    Full floofy doof session, recorded live at Art~Hack Wellington (15 November 2018)! Featuring Mikey on the vocal loops, and Ben tearing it up on the Monologue at the very end!
+
+    (trimmed and enhanced using a multi-track recording)
+
 - type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/1572050542941765/"
-  description: The OFFICIAL live stream of Art~Hack International Incorporated LLC!!!!!
-  createdAt: '2018-11-08T08:52:04+0000'
+  url: 'https://www.facebook.com/bennolan/videos/10156805551336798/'
+  createdAt: 2018-11-15
+  title: Art~Hack to DESTROY WITH SCIENCE
+
+- type: facebook
   url: 'https://www.facebook.com/matt.mckegg/videos/10218524098035233'
+  permalinkUrl: "/groups/arthacknz/permalink/1572050542941765/"
+  createdAt: '2018-11-08T08:52:04+0000'
+  title: The OFFICIAL live stream of Art~Hack International Incorporated LLC!!!!!
+
 - type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/1561201404026679/"
-  description: A part of the amazingness that was art~hack tonight. Thanks Jack, Matt,
-    Mikey, Sig and everyone else who contributed tonight, what a session.
-  createdAt: '2018-10-25T11:46:43+0000'
   url: 'https://www.facebook.com/matt.mckegg/videos/10156755225316798'
+  permalinkUrl: "/groups/arthacknz/permalink/1561201404026679/"
+  createdAt: '2018-10-25T11:46:43+0000'
+  title: A part of the amazingness that was art~hack tonight.
+  description: Thanks Jack, Matt, Mikey, Sig and everyone else who contributed tonight, what a session.
+
 - type: facebook
+  url: https://www.facebook.com/matt.mckegg/videos/10218360119295867/
+  createdAt: 2018-10-18
+  title: it's art~hack, yeah!
+
+- type: facebook
+  url: 'https://www.facebook.com/bennolan/videos/10156669079196798'
   permalinkUrl: "/groups/arthacknz/permalink/1534397000040453/"
+  createdAt: '2018-09-20T09:47:24+0000'
   title: Space Ed / Destroy With Science / Skeezy Vibes.
   description: |-
     Space Ed / Destroy With Science / Skeezy Vibes.
 
     ~ Destroy With Space Vibes!
-  createdAt: '2018-09-20T09:47:24+0000'
-  url: 'https://www.facebook.com/bennolan/videos/10156669079196798'
   aspect: '16:10'
+
 - type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/1518101001670053/"
-  description: The old gangs back!
-  createdAt: '2018-08-30T08:08:58+0000'
+  url: 'https://www.facebook.com/destroywithscience/videos/668215256895968/'
+  createdAt: 2018-09-06
+  title: 'Art~Hack 6 Sep 2018: Live Improv Session (DWS + Space-Ed)'
+  description: Back with another Art~Hack session. Had no idea where this was gonna go when we started out. Surprisingly synth pop! (noise pop?) Featuring Edward Dalley (out of frame) on the vox!
+
+- type: facebook
   url: 'https://www.facebook.com/matt.mckegg/videos/10217950104205746'
+  permalinkUrl: "/groups/arthacknz/permalink/1518101001670053/"
+  createdAt: '2018-08-30T08:08:58+0000'
+  title: The old gangs back!
+
 - type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/1464411877038966/"
-  description: Here goes something
-  createdAt: '2018-07-19T08:34:06+0000'
+  url: 'https://www.facebook.com/destroywithscience/videos/2062828600417470/'
+  createdAt: 2018-07-23
+  title: Show (video by cyberboy666)
+  description: |-
+    Official video for "Show" from Destory With Science's new EP "Digital Devices".
+    Analog <3 digital.
+
+    Stream and download full album on Bandcamp: https://destroywithscience.bandcamp.com/album/digital-devices
+
+    ...and all the other usual suspects like spotify and apple music once the data makes its way through the internet pipes!
+
+    See more by cyberboy666 & user43368831 at https://cyberboy666.com
+
+- type: facebook
   url: 'https://www.facebook.com/matt.mckegg/videos/10217600788273066'
+  createdAt: '2018-07-19T08:34:06+0000'
+  permalinkUrl: "/groups/arthacknz/permalink/1464411877038966/"
+  title: Here goes something
+
+- type: youtube
+  url: https://www.youtube.com/watch?v=RXkpEm_pRMQ
+  createdAt: 2018-07-02
+  title: Digital Nonsense (Matt+Mikey+Jack improv session at Art~Hack)
+  description: |-
+    Psychedelic improv session featuring Matt on beats, Mikey on the mic, and Jack on the beams. Extracted from the Art~Hack Facebook live stream 28 June 2018.
+
+    Featured music gear:
+    - Futuresonus Parva (bass, lead)
+    - Roland SP-404A (drums)
+    - Roland VT-3 (volca fx)
+    - Source Audio Nemesis and Ventris (delay and reverb)
+    - Korg Kaoss Pad Mini 2 (drum fx)
+    - K-Mix (mix and compression)
+    - Novation Launchpad, Midi Fighter Twister, and K-Board midi controllers
+    - Raspberry Pi running custom midi looper/sequencer written in rustlang
+
 - type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/1438689679611186/"
-  description: mikey and ben on the beats (and then matt and mikey til the wee hrs
-    of the morning)
-  createdAt: '2018-06-28T08:54:37+0000'
   url: 'https://www.facebook.com/matt.mckegg/videos/10217428301040993'
+  permalinkUrl: "/groups/arthacknz/permalink/1438689679611186/"
+  createdAt: '2018-06-28T08:54:37+0000'
+  title: mikey and ben on the beats (and then matt and mikey til the wee hrs
+    of the morning)
+
 - type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/1438672012946286/"
-  description: beatz
-  createdAt: '2018-06-28T08:33:02+0000'
   url: 'https://www.facebook.com/matt.mckegg/videos/10217428200398477'
+  permalinkUrl: "/groups/arthacknz/permalink/1438672012946286/"
+  createdAt: '2018-06-28T08:33:02+0000'
+  title: beatz
+
+- type: facebook
+  url: https://www.facebook.com/matt.mckegg/videos/10217388388603207/
+  createdAt: '2018-06-23T06:00:00+0000'
+  title: winter expo live
+  description: |-
+    Full "live stream" from the performance section of Art~Hack Winter Expo (public)! Unfortunately the internet gave up so the stream cut out, but here is the recording RAW AND UNEDITED!!
+
+    00:00:10 - Mikey introduces the live performances
+    00:01:17 - Zach Mandeville: read-me (spoken word)
+    00:08:46 - Edward Dalley: Space-Ed (live set)
+    00:29:14 - Ben Nolan: Skeezy Vibes (live set)
+    00:54:31 - Matt McKegg: DESTROY WITH SCIENCE (live set)
+    01:52:12 - Mikey closes the evening
+
+    And featuring live coded visuals by Daniel Aston (left) and Jack Purvis (right).
+
+    Sorry the audio is a bit all over the place, but whatever, it's live yo!
+
 - type: facebook
   permalinkUrl: "/groups/arthacknz/permalink/1432490596897761/"
+  url: 'https://www.facebook.com/matt.mckegg/videos/10217386632999318'
+  createdAt: '2018-06-23T05:13:57+0000'
+  title: winter expo setup
   description: It's the Art~Hack Winter Expo (public)!! Happening now at Newtown Community
     & Cultural Centre!  (currently setting up)
-  createdAt: '2018-06-23T05:13:57+0000'
-  url: 'https://www.facebook.com/matt.mckegg/videos/10217386632999318'
+
+- type: youtube
+  url: 'https://www.youtube.com/watch?v=h1-i9oMeSiw'
+  createdAt: 2018-06-21
+  title: Destroy With Science + Space Ed  + Skeezy Vibes + the arthack collective
+
 - type: facebook
+  url: 'https://www.facebook.com/matt.mckegg/videos/10156392057889512'
   permalinkUrl: "/groups/arthacknz/permalink/1422531721226982/"
   createdAt: '2018-06-14T08:29:25+0000'
-  url: 'https://www.facebook.com/matt.mckegg/videos/10156392057889512'
   aspect: '640:1143'
+
+- type: youtube
+  url: 'https://www.youtube.com/watch?v=0sGEzagJdBI'
+  createdAt: 2018-06-14
+  title: Skeezy Vibes + Katface Kellective
+
 - type: facebook
+  url: 'https://www.facebook.com/bennolan/videos/10156394541951798'
   permalinkUrl: "/groups/arthacknz/permalink/1416867525126735/"
   createdAt: '2018-06-07T07:44:18+0000'
-  url: 'https://www.facebook.com/bennolan/videos/10156394541951798'
-- type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/1407327406080747/"
-  description: HACK MART
-  createdAt: '2018-05-24T08:06:37+0000'
-  url: 'https://www.facebook.com/matt.mckegg/videos/10217142227729339'
-- type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/1397980257015462/"
-  description: bird ravers eye view.
-  createdAt: '2018-05-10T08:10:00+0000'
-  url: 'https://www.facebook.com/matt.mckegg/videos/10217032367342898'
-- type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/1393273657486122/"
-  description: band's back together!
-  createdAt: '2018-05-03T08:38:45+0000'
-  url: 'https://www.facebook.com/matt.mckegg/videos/10216975357637691'
-- type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/1379160812230740/"
-  description: and we're back!!!
-  createdAt: '2018-04-12T09:54:04+0000'
-  url: 'https://www.facebook.com/matt.mckegg/videos/10216806575258237'
-- type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/1379136995566455/"
-  description: its the beats yo!
-  createdAt: '2018-04-12T08:58:05+0000'
-  url: 'https://www.facebook.com/matt.mckegg/videos/10216806238489818'
-- type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/1374290549384433/"
-  description: let's see what happens!
-  createdAt: '2018-04-05T08:51:02+0000'
-  url: 'https://www.facebook.com/matt.mckegg/videos/10216744754672761'
-- type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/1358716044275217/"
-  title: ART!HACK!!!!! down week.
-  createdAt: '2018-03-15T09:24:59+0000'
-  url: 'https://www.facebook.com/matt.mckegg/videos/10216547288176222'
-- type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/1353175218162633/"
-  description: |-
-    A RHAPSODY IN BLUE
 
-    #matt #ed #mikey #mix #nick #ben #lucas
-  createdAt: '2018-03-08T07:29:03+0000'
+- type: facebook
+  url: 'https://www.facebook.com/matt.mckegg/videos/10217142227729339'
+  permalinkUrl: "/groups/arthacknz/permalink/1407327406080747/"
+  createdAt: '2018-05-24T08:06:37+0000'
+  title: HACK MART
+
+- type: youtube
+  url: 'https://www.youtube.com/watch?v=XP-o-ATCqyo'
+  createdAt: 2018-04-23
+  title: DWS + Space-Ed chill jam at Art~Hack (5 April 2018)
+  description: |-
+    Matt and Ed chilling with a Futuresonus Parva + Roland SP-404, acoustic guitar and SOO MANY pedals!
+
+    Oh and some rust code running on a Raspberry Pi hooked up to a Novation Launchpad and MF Twister driving the synth and sampler via midi.
+
+- type: facebook
+  url: 'https://www.facebook.com/matt.mckegg/videos/10217032367342898'
+  permalinkUrl: "/groups/arthacknz/permalink/1397980257015462/"
+  createdAt: '2018-05-10T08:10:00+0000'
+  description: bird ravers eye view.
+
+- type: facebook
+  url: 'https://www.facebook.com/matt.mckegg/videos/10216975357637691'
+  permalinkUrl: "/groups/arthacknz/permalink/1393273657486122/"
+  createdAt: '2018-05-03T08:38:45+0000'
+  title: band's back together!
+
+- type: facebook
+  url: 'https://www.facebook.com/matt.mckegg/videos/10216806575258237'
+  permalinkUrl: "/groups/arthacknz/permalink/1379160812230740/"
+  createdAt: '2018-04-12T09:54:04+0000'
+  title: and we're back!!!
+
+- type: facebook
+  url: 'https://www.facebook.com/matt.mckegg/videos/10216806238489818'
+  permalinkUrl: "/groups/arthacknz/permalink/1379136995566455/"
+  createdAt: '2018-04-12T08:58:05+0000'
+  title: its the beats yo!
+  description: accidentally minimal, from 5 minutes onward only broadcasted a single channel.
+
+- type: facebook
+  url: 'https://www.facebook.com/matt.mckegg/videos/10216744754672761'
+  permalinkUrl: "/groups/arthacknz/permalink/1374290549384433/"
+  createdAt: '2018-04-05T08:51:02+0000'
+  title: let's see what happens!
+
+- type: facebook
+  url: 'https://www.facebook.com/matt.mckegg/videos/10216546543757612/'
+  permalinkUrl: "/groups/arthacknz/permalink/1358675114279310/"
+  createdAt: '2018-03-15T09:40:59+0000'
+  title: ART!HACK!!!!! down week. (part 2)
+
+- type: facebook
+  url: 'https://www.facebook.com/matt.mckegg/videos/10216547288176222'
+  permalinkUrl: "/groups/arthacknz/permalink/1358716044275217/"
+  createdAt: '2018-03-15T09:24:59+0000'
+  title: ART!HACK!!!!! down week.
+
+- type: soundcloud
+  url: 'https://soundcloud.com/destroy-with-science/arthack-jam-night-8-march-2018'
+  createdAt: 2018-03-11T03:21:34.000Z
+  title: 'Art~Hack Jam Night: 8 March 2018'
+  description: Featuring Matt (DWS), Ed (Space-Ed) and Ben (Skeezy Vibes)!
+
+- type: youtube
+  url: 'https://www.youtube.com/watch?v=0rWFlwMx60M'
+  createdAt: 2018-03-10
+  title: 'Art~Hack Jam Night: 8 March 2018'
+  description: High Quality STEREO FOOWHAECHDEE!!!! Jam from the other night 🦆🤠👻
+
+- type: facebook
   url: 'https://www.facebook.com/bennolan/videos/10156158634001798'
+  permalinkUrl: "/groups/arthacknz/permalink/1353175218162633/"
+  createdAt: '2018-03-08T07:29:03+0000'
+  title: A RHAPSODY IN BLUE
+  description: '#matt #ed #mikey #mix #nick #ben #lucas'
+
 - type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/1348016508678504/"
-  description: Down week live stream part 2. More high quality video coming when my
-    camera power supply arrives from China.
-  createdAt: '2018-03-01T08:16:31+0000'
   url: 'https://www.facebook.com/bennolan/videos/10156137562291798'
+  permalinkUrl: "/groups/arthacknz/permalink/1348016508678504/"
+  createdAt: '2018-03-01T08:16:31+0000'
+  title: Down week live stream part 2.
+  description: More high quality video coming when my camera power supply arrives from China.
+
 - type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/1348004832013005/"
-  description: Live stream. Down week. Up vibe. Edward Dalley on OP1. Matt McKegg
-    on Mother 32. Jack on Visuals.
-  createdAt: '2018-03-01T07:47:02+0000'
   url: 'https://www.facebook.com/bennolan/videos/10156137501946798'
+  permalinkUrl: "/groups/arthacknz/permalink/1348004832013005/"
+  createdAt: '2018-03-01T07:47:02+0000'
+  title: Live stream. Down week. Up vibe.
+  description: Edward Dalley on OP1. Matt McKegg on Mother 32. Jack on Visuals.
+
 - type: facebook
+  url: 'https://www.facebook.com/bennolan/videos/10156117430801798'
   permalinkUrl: "/groups/arthacknz/permalink/1342780962535392/"
+  createdAt: '2018-02-22T09:32:42+0000'
   title: Art Hack up week with many new things
   description: New sound system, new synths, new laptops, new setup, new visuals live
     coded from Jack. Ed on guitar, Matt on cables, Ben on the large but tiny minilogue.
-  createdAt: '2018-02-22T09:32:42+0000'
-  url: 'https://www.facebook.com/bennolan/videos/10156117430801798'
-- type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/1337549309725224/"
-  description: Couch hack. Forgot to bring batteries, and my Lauchpad. Goingold scrhool
-    toniught
-  createdAt: '2018-02-15T08:57:47+0000'
-  url: 'https://www.facebook.com/matt.mckegg/videos/10216267387818888'
-- type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/1337541959725959/"
-  description: |-
-    chill beats on the couch
 
-    ITS COUCH HACK YO!
-  createdAt: '2018-02-15T08:37:15+0000'
-  url: 'https://www.facebook.com/matt.mckegg/videos/10216267248815413'
 - type: facebook
+  url: 'https://www.facebook.com/matt.mckegg/videos/10216267387818888'
+  permalinkUrl: "/groups/arthacknz/permalink/1337549309725224/"
+  createdAt: '2018-02-15T08:57:47+0000'
+  title: Couch hack.
+  description: Forgot to bring batteries, and my Lauchpad. Goingold scrhool toniught
+
+- type: facebook
+  url: 'https://www.facebook.com/matt.mckegg/videos/10216267248815413'
+  permalinkUrl: "/groups/arthacknz/permalink/1337541959725959/"
+  createdAt: '2018-02-15T08:37:15+0000'
+  title: chill beats on the couch
+  description: ITS COUCH HACK YO!
+
+- type: facebook
+  url: 'https://www.facebook.com/matt.mckegg/videos/10216215866050876'
   permalinkUrl: "/groups/arthacknz/permalink/1333827206764101/"
   createdAt: '2018-02-10T01:05:45+0000'
-  url: 'https://www.facebook.com/matt.mckegg/videos/10216215866050876'
   aspect: '640:853'
+
 - type: facebook
+  url: 'https://www.facebook.com/bennolan/videos/10156077512786798'
+  createdAt: '2018-02-08T09:59:39+0000'
   permalinkUrl: "/groups/arthacknz/permalink/1332665746880247/"
   title: Mega hack part 2
   description: Mega hack part 2
-  createdAt: '2018-02-08T09:59:39+0000'
-  url: 'https://www.facebook.com/bennolan/videos/10156077512786798'
+
 - type: facebook
+  url: 'https://www.facebook.com/bennolan/videos/10156077399896798'
   permalinkUrl: "/groups/arthacknz/permalink/1332647333548755/"
+  createdAt: '2018-02-08T08:56:16+0000'
   title: Mega hack live
   description: Mega hack with ink, drones, 3d printing, german art, one microphone
     and 17 synths.
-  createdAt: '2018-02-08T08:56:16+0000'
-  url: 'https://www.facebook.com/bennolan/videos/10156077399896798'
+
 - type: facebook
+  url: 'https://www.facebook.com/matt.mckegg/videos/10215987912312175'
+  createdAt: '2018-01-18T10:13:35+0000'
   permalinkUrl: "/groups/arthacknz/permalink/1316878428458979/"
   description: spotty internets 2NITE
-  createdAt: '2018-01-18T10:13:35+0000'
-  url: 'https://www.facebook.com/matt.mckegg/videos/10215987912312175'
+
 - type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/1316835648463257/"
-  description: it dieded her anither
-  createdAt: '2018-01-18T08:50:05+0000'
   url: 'https://www.facebook.com/matt.mckegg/videos/10215987472461179'
+  permalinkUrl: "/groups/arthacknz/permalink/1316835648463257/"
+  createdAt: '2018-01-18T08:50:05+0000'
+  description: it dieded her anither
+
 - type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/1316826471797508/"
-  description: One week before kiwiburn!
-  createdAt: '2018-01-18T08:28:16+0000'
   url: 'https://www.facebook.com/matt.mckegg/videos/10215987345137996'
+  permalinkUrl: "/groups/arthacknz/permalink/1316826471797508/"
+  createdAt: '2018-01-18T08:28:16+0000'
+  description: One week before kiwiburn!
+
 - type: facebook
+  url: 'https://www.facebook.com/kellective/videos/10156005176454512'
   permalinkUrl: "/groups/arthacknz/permalink/1315550065258482/"
   createdAt: '2018-01-16T11:30:20+0000'
-  url: 'https://www.facebook.com/kellective/videos/10156005176454512'
+
 - type: facebook
+  url: 'https://www.facebook.com/kellective/videos/10156005176234512'
   permalinkUrl: "/groups/arthacknz/permalink/1315550065258482/"
   createdAt: '2018-01-16T11:30:21+0000'
-  url: 'https://www.facebook.com/kellective/videos/10156005176234512'
   aspect: '640:1143'
+
 - type: facebook
   permalinkUrl: "/groups/arthacknz/permalink/1312285465584942/"
+  url: 'https://www.facebook.com/kellective/videos/10155992704154512'
+  createdAt: '2018-01-11T07:44:30+0000'
   title: Art Hack
   description: Lots of us prepping projects for kiwiburn :D
-  createdAt: '2018-01-11T07:44:30+0000'
-  url: 'https://www.facebook.com/kellective/videos/10155992704154512'
+
 - type: facebook
+  url: 'https://www.facebook.com/kellective/videos/10155992669359512'
   permalinkUrl: "/groups/arthacknz/permalink/1312277542252401/"
   createdAt: '2018-01-11T07:31:08+0000'
-  url: 'https://www.facebook.com/kellective/videos/10155992669359512'
+
 - type: facebook
+  url: 'https://www.facebook.com/bennolan/videos/10155941389691798'
   permalinkUrl: "/groups/arthacknz/permalink/1298422646971224/"
+  createdAt: '2017-12-21T08:41:36+0000'
   title: Arthack Megastream Finale for 2017
   description: One sub, seven synths, fifteen people and 5 LED par cans. It's Art Hack people.
-  createdAt: '2017-12-21T08:41:36+0000'
-  url: 'https://www.facebook.com/bennolan/videos/10155941389691798'
+
+- type: soundcloud
+  url: https://soundcloud.com/destroy-with-science/dws-space-ed-live-jamming-at-arthack-14-december-2017
+  createdAt: 2017-12-15T13:33:24.000Z
+  title: DWS + SPACE-ED live jamming at Art~Hack (14 December 2017)
+  description: |-
+    Recorded live at Art~Hack, Wellington. Trimmed and normalized before uploading.
+
+    Gear being fiddled with:
+
+    Roland TR-08
+    Moog Mother-32
+    Korg Volca Keys
+    Eventide Space Reverb
+    Line 6 M5 MutliFX Pedal
+    Loop Drop with Launchpad Mini for sequencing and midi looping
+    Korg Volca Beats
+    Korg Kaossilator Pro
+    Lots more FX pedals (Ed can tell you what)
+
 - type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/1293879104092245/"
-  description: let's just get this over and done with!
-  createdAt: '2017-12-14T09:47:58+0000'
   url: 'https://www.facebook.com/matt.mckegg/videos/10215670070326324'
+  permalinkUrl: "/groups/arthacknz/permalink/1293879104092245/"
+  createdAt: '2017-12-14T09:47:58+0000'
+  description: let's just get this over and done with!
+
 - type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/1289235027889986/"
-  description: eh stramy tinh
-  createdAt: '2017-12-07T08:47:22+0000'
   url: 'https://www.facebook.com/matt.mckegg/videos/10215605938083058'
+  permalinkUrl: "/groups/arthacknz/permalink/1289235027889986/"
+  createdAt: '2017-12-07T08:47:22+0000'
+  description: eh stramy tinh
+
 - type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/1275100592636763/"
-  description: IT'S LIVE HACK YO!
-  createdAt: '2017-11-16T08:16:53+0000'
+  url: 'https://www.facebook.com/destroywithscience/videos/1782810101752656/'
+  createdAt: '2017-11-30'
+  title: Art~Hack + Friends + Synths! And blinding lights!
+
+- type: youtube
+  url: https://www.youtube.com/watch?v=Tpzie02JBc8
+  createdAt: '2017-11-26'
+  title: 'Art~Hack Jam Night 16 November 2017: That song at the end'
+
+- type: facebook
   url: 'https://www.facebook.com/matt.mckegg/videos/10215417685856870'
+  permalinkUrl: "/groups/arthacknz/permalink/1275100592636763/"
+  createdAt: '2017-11-16T08:16:53+0000'
+  description: IT'S LIVE HACK YO!
+
 - type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/1265683003578522/"
-  description: moar stream
-  createdAt: '2017-11-02T09:16:08+0000'
   url: 'https://www.facebook.com/matt.mckegg/videos/10215297634455660'
+  permalinkUrl: "/groups/arthacknz/permalink/1265683003578522/"
+  createdAt: '2017-11-02T09:16:08+0000'
+  description: moar stream
+
 - type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/1265652510248238/"
-  description: IT'S SYNTH HACK YO!
-  createdAt: '2017-11-02T07:51:03+0000'
   url: 'https://www.facebook.com/matt.mckegg/videos/10215297157723742'
+  permalinkUrl: "/groups/arthacknz/permalink/1265652510248238/"
+  createdAt: '2017-11-02T07:51:03+0000'
+  description: IT'S SYNTH HACK YO!
   aspect: '4:3'
+
 - type: facebook
+  url: 'https://www.facebook.com/matt.mckegg/videos/10215236806775006'
   permalinkUrl: "/groups/arthacknz/permalink/1261183637361792/"
   createdAt: '2017-10-26T09:53:40+0000'
-  url: 'https://www.facebook.com/matt.mckegg/videos/10215236806775006'
+
 - type: facebook
+  url: 'https://www.facebook.com/matt.mckegg/videos/10215236140878359'
   permalinkUrl: "/groups/arthacknz/permalink/1261107757369380/"
   createdAt: '2017-10-26T06:33:10+0000'
-  url: 'https://www.facebook.com/matt.mckegg/videos/10215236140878359'
+
 - type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/1256826417797514/"
-  description: Back for another jam with the haminator!
-  createdAt: '2017-10-19T09:16:58+0000'
   url: 'https://www.facebook.com/matt.mckegg/videos/10215178845086000'
+  permalinkUrl: "/groups/arthacknz/permalink/1256826417797514/"
+  createdAt: '2017-10-19T09:16:58+0000'
+  description: Back for another jam with the haminator!
+
 - type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/1252502764896546/"
-  description: It’s the skeezy vibes with Ben!!
-  createdAt: '2017-10-12T07:57:20+0000'
   url: 'https://www.facebook.com/matt.mckegg/videos/10215120433345743'
+  permalinkUrl: "/groups/arthacknz/permalink/1252502764896546/"
+  createdAt: '2017-10-12T07:57:20+0000'
+  title: It’s the skeezy vibes with Ben!!
+
 - type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/1234800680000088/"
-  description: "live from Art~Hack Wellington, \U0001F508\U0001F528 !"
-  createdAt: '2017-09-14T08:58:41+0000'
   url: 'https://www.facebook.com/matt.mckegg/videos/10214828529008317'
+  permalinkUrl: "/groups/arthacknz/permalink/1234800680000088/"
+  createdAt: '2017-09-14T08:58:41+0000'
+  title: "live from Art~Hack Wellington, \U0001F508\U0001F528 !"
+
+- type: youtube
+  url: https://www.youtube.com/watch?v=j-_ep2JyBTw
+  createdAt: 2017-09-07
+  title: Live JS full performance at Coldfront 2017 (VEGA, Copenhagen)
+  description: Live music performance powered entirely by Web Technology! Featuring music by Matt McKegg (https://soundcloud.com/destroy-with-s...), visuals by Ruth John (http://rumyrashead.com/) and lightshow by Martin Schuhfuss (https://twitter.com/usefulthink).
+
 - type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/1212096942270462/"
-  description: "live jam with \U0001F50A\U0001F528!"
-  createdAt: '2017-08-10T08:14:20+0000'
   url: 'https://www.facebook.com/michaeljwilliams/videos/10212609241840004'
+  permalinkUrl: "/groups/arthacknz/permalink/1212096942270462/"
+  createdAt: '2017-08-10T08:14:20+0000'
+  title: "live jam with \U0001F50A\U0001F528!"
+
+- type: youtube
+  url: https://www.youtube.com/watch?v=-6BbcDpVbv4
+  createdAt: '2017-07-27'
+  title: Mostly Minimal Techno Jam at Art~Hack (27 July 2017)
+  description: |-
+    Taken from the live stream!
+
+    Featuring Matt on the Loop Drop (with Launchpads) and Ben on the OP-1 and Korg Volca
+
 - type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/1201633919983431/"
-  description: Art~Hack live stream episode 2!
-  createdAt: '2017-07-27T08:26:51+0000'
   url: 'https://www.facebook.com/bennolan/videos/10155529783671798'
+  permalinkUrl: "/groups/arthacknz/permalink/1201633919983431/"
+  createdAt: '2017-07-27T08:26:51+0000'
+  description: Art~Hack live stream episode 2!
+
 - type: facebook
+  url: 'https://www.facebook.com/matt.mckegg/videos/10214205159264463'
   permalinkUrl: "/groups/arthacknz/permalink/1189169494563207/"
   createdAt: '2017-07-13T09:48:17+0000'
-  url: 'https://www.facebook.com/matt.mckegg/videos/10214205159264463'
+
 - type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/1189121951234628/"
-  description: SYNTNSHSHS!!!
-  createdAt: '2017-07-13T08:04:02+0000'
   url: 'https://www.facebook.com/matt.mckegg/videos/10214204644931605'
+  permalinkUrl: "/groups/arthacknz/permalink/1189121951234628/"
+  createdAt: '2017-07-13T08:04:02+0000'
+  description: SYNTNSHSHS!!!
+
+- type: youtube
+  url: https://www.youtube.com/watch?v=ErdPQLGbaQ0
+  createdAt: 2017-05-25
+  title: SPEAKERHAMMER at Art~Hack Jam Night (25 May 2017)
+  description: And we're back with another Matt + Ben electrojam. This time Ben mixes it up a little with the GEEE-TAW!
+
+- type: youtube
+  url: https://www.youtube.com/watch?v=PzYaBOra6PA
+  createdAt: 2017-04-27
+  title: 'Art~Hack Jam Night: 28 April 2017'
+  description: |-
+    Featuring Matt on the JavaScript and Ben on the Analog synths!
+
+- type: youtube
+  url: https://www.youtube.com/watch?v=I513uethrWU
+  createdAt: 2017-04-02
+  title: 'Backyard Session #1: DESTROY WITH SCIENCE + visuals by cyberboy666'
+  description: |-
+    Things got deep in the dance basement!
+
+    Visuals by cyberboy666 (http://facebook.com/cyberboy666)
+
+- type: soundcloud
+  url: https://soundcloud.com/destroy-with-science/mind-gap
+  createdAt: 2016-07-29T05:51:55.000Z
+  title: Mind Gap
+  description: |-
+    Playing with some sounds and yeah, this happened.
+
+    All performed and synthesised using Loop Drop (loopjs.com), with a few random samples from freesound.org
+
+    The main one: freesound.org/people/jackjewers/sounds/240208/
+
+- type: youtube
+  url: https://www.youtube.com/watch?v=jPghHPxdKb8
+  createdAt: 2016-06-22
+  title: CYBORG a/v jam at Art~Hack (with DWS + cyberboy666)
+  description: |-
+    This is the third time me and Tim have got together and jammed some improvised tunes and blasted some raw analogue visuals. Andy joins us this time augmenting the pixels with some digital effects.
+
+    DESTROY WITH SCIENCE (music)
+    https://soundcloud.com/destroy-with-s...
+    https://www.facebook.com/destroywiths...
+
+    cyberboy666 (visuals)
+    https://www.facebook.com/cyberboy666
+
+- type: soundcloud
+  url: https://soundcloud.com/destroy-with-science/live-at-arthack-full-set-7-july-2016
+  createdAt: 2016-07-08T04:01:51.000Z
+  title: Live at Art~Hack, full set (7 July 2016)
+  description: Another "Matt plays the hits" performed and recorded using Loop Drop (loopjs.com) live at Art~Hack, Wellington.
+
+
+- type: youtube
+  url: https://www.youtube.com/watch?v=qvh_rLvYIPk
+  createdAt: '2016-06-18'
+  title: 'Live at 1st Assembly ::: Jamming with Loop Drop'
+  description: |-
+    Improvised and performed by Matt McKegg (https://soundcloud.com/destroy-with-s...) using Loop Drop (http://loopjs.com) and Novation Launch hardware at 1st Assembly in Lower Hutt, NZ.
+
+- type: youtube
+  url: https://www.youtube.com/watch?v=9wwNhe8GP_U
+  createdAt: '2016-06-09'
+  title: 'DWS + cyberboy666 ::: a/v jam session 02'
+  description: Recorded live at Art~Hack on the 9th of June 2016.
+
+- type: youtube
+  url: https://www.youtube.com/watch?v=mx6WQgfNha4
+  createdAt: '2016-06-07'
+  title: DESTROY WITH SCIENCE live at Camp JS VII (full set)
+  description: |-
+    Visuals by Hugh Kennedy (http://hughsk.io)
+
+    I played some tunes at the awesome Camp JS at Broken Bay, a remote recreation centre near Sydney, only accessible by boat! (http://soundcloud.com/destroy-with-sc...)
+
+    Thanks to Mikey (http://dinosaur.is) for providing and setting up the LEDs!
+
+- type: youtube
+  url: https://www.youtube.com/watch?v=IaXdyyUfE_w
+  createdAt: '2016-05-19'
+  title: DESTROY WITH SCIENCE + cyberboy666 (live at Art~Hack)
+  description: Improvised and performed live at Art~Hack, Wellington. Music + Lights by Matt McKegg (soundcloud.com/destroy-with-science) using Loop Drop (loopjs.com) with Novation Launchpads. Visuals by Tim Caldwell (vimeo.com/user43368831) using a bunch of crazy analogue gear!
+
+- type: vimeo
+  url: 'https://vimeo.com/166426029'
+  createdAt: '2016-05-12 16:54:40'
+  title: Sessions @ The Red Vic - Fanotron
+  description: Tom, a recovering English physicist currently living in New Zealand, had a 2 day layover in San Francisco, but luckily missed his flight to London by 15 minutes and ended up staying at The Red Vic as a result of a tip off from an old sailing buddy. He had with him, in a mysterious silver flight case, an analogue optical synth that had he designed and constructed one rainy afternoon. Here is an excerpt from his 20 minute performance. This odd device is named Fanotron and you can see some of his other fantastically nerdy projects at headchip.net
+
+- type: vimeo
+  url: 'https://vimeo.com/163121953'
+  createdAt: '2016-04-16 22:06:55'
+  title: welcome to the PLEASUREDOME
+  description: a live analogue visual set
+
+- type: soundcloud
+  url: 'https://soundcloud.com/destroy-with-science/live-at-arthack-28-april-2016'
+  createdAt: '2016-04-29T04:27:06.000Z'
+  title: Live at Art~Hack (28 April 2016)
+  description: |-
+    Improvised and recorded live at Art~Hack, Wellington using Loop Drop (loopjs.com) and Novation Launch controllers.
+
+    Samples from www.youtube.com/watch?v=Jc_RKi4rmzs
+
+    Chopped out the boring bits in Ableton Live before uploading :)
+
+
 - type: facebook
+  url: 'https://www.facebook.com/michaeljwilliams/videos/10208416150815349'
   permalinkUrl: "/groups/arthacknz/permalink/856091757870984/"
+  createdAt: '2016-04-21T06:29:12+0000'
   description: |-
     hey friendly folx, Art~Hack tonight. <3
 
     in exciting news, thanks to Michael and Matt we meow have a door bell!
 
     if you're outside the door, give it a ring at https://arthack.nz/ :)
-  createdAt: '2016-04-21T06:29:12+0000'
-  url: 'https://www.facebook.com/michaeljwilliams/videos/10208416150815349'
+
 - type: facebook
+  url: 'https://www.facebook.com/michaeljwilliams/videos/10208058602156856'
   permalinkUrl: "/groups/arthacknz/permalink/830551203758373/"
+  createdAt: '2016-03-17T03:56:38+0000'
   description: |-
     hey folx!
 
     another week, another Art~Hack! see y'all tonight at Enspiral Space starting ~6pm. join us in a safe space to jam on *anything*. :)
 
     snippet from last week (Matt's lights powered by loopjs.com):
-  createdAt: '2016-03-17T03:56:38+0000'
-  url: 'https://www.facebook.com/michaeljwilliams/videos/10208058602156856'
   aspect: '640:1143'
+
+- type: soundcloud
+  url: 'https://soundcloud.com/destroy-with-science/live-at-arthack-full-set-14-january-2016'
+  createdAt: '2016-01-15T05:32:41.000Z'
+  title: Live At Art~Hack, Full Set (14 January 2016)
+  description: |-
+    Full set performed and recorded live at Art~Hack, Wellington using Loop Drop (loopjs.com). Trimmed and mastered with Ableton Live.
+
+    Set list:
+    00:00 - Mainframe
+    07:02 - Personal Malfunction
+    15:10 - Cryogenesis
+    24:53 - Cypher's Red Pill
+    33:13 - I Am Not A Robot
+    41:28 - Corporate Takedown
+
+- type: soundcloud
+  url: 'https://soundcloud.com/destroy-with-science/i-am-not-a-robot'
+  createdAt: '2015-12-31T03:54:35.000Z'
+  title: I Am Not A Robot
+  description: |-
+    Drum machines and you.
+
+    Samples from:
+    - Linn LM-1
+    - Chamberlin Rhythmate (www.youtube.com/watch?v=JmAbtzMChHk)
+    - "Will Robots Make Us More Human?" (www.youtube.com/watch?v=AsACeAkvFLY&t=576)
+
+- type: soundcloud
+  url: 'https://soundcloud.com/destroy-with-science/cyphers-red-pill'
+  createdAt: '2015-12-04T06:52:14.000Z'
+  title: Cypher's Red Pill (Art~Hack, 3 December 2015)
+  description: |-
+    Improvised and recorded live at Art~Hack, Wellington using Loop Drop (loopjs.com).
+
+- type: soundcloud
+  url: 'https://soundcloud.com/destroy-with-science/eeyore-likes-to-party'
+  createdAt: '2015-11-27T06:15:44.000Z'
+  title: Eeyore Likes To Party (Art~Hack, 26 November 2015)
+  description: |-
+    Improvised and recorded live at Art~Hack, Wellington using Loop Drop (loopjs.com).
+
+- type: soundcloud
+  url: 'https://soundcloud.com/destroy-with-science/the-hallows-eve'
+  createdAt: '2015-10-30T03:49:18.000Z'
+  title: The Hallows Eve (Art~Hack, 29 October 2015)
+  description: |-
+    A festive little mix this week.
+
+    Improvised and recorded live at Art~Hack, Wellington using Loop Drop (loopjs.com).
+
+    Featured samples:
+    - The Nightmare Before Christmas - This is Halloween
+    - Door creaking, wind howling
+    - Hadestown (by Anaïs Mitchell) - Wait For Me
+
+- type: soundcloud
+  url: 'https://soundcloud.com/destroy-with-science/whistling-for-tidbits'
+  createdAt: '2015-10-16T01:50:45.000Z'
+  title: Whistling For Tidbits (Art~Hack, 15 October 2015)
+  description: |-
+    Improvised and recorded live at Art~Hack, Wellington using Loop Drop (loopjs.com).
+
+    Starts off with a minimal interpretation of "So long and thanks for all the fish" from the movie adaptation of Douglas Adams' "Hitchhikers Guide to The Galaxy".
+
+    Then we revisit some of the new material from last week.
+
+- type: soundcloud
+  url: 'https://soundcloud.com/destroy-with-science/mainframe-full-set-8-october-2015'
+  createdAt: '2015-10-09T08:41:36.000Z'
+  title: Mainframe, full set (Art~Hack, 8 October 2015)
+  description: |-
+    Improvised and recorded live at Art~Hack, Wellington using Loop Drop (loopjs.com)
+
+    Starts off real slow - drums don't kick in until 11:05, but SPOILER ALERT:
+
+    Old-school techno remix of ReBoot (1994 TV series) theme at 28:32!!
+
+- type: soundcloud
+  url: 'https://soundcloud.com/destroy-with-science/companion-live-at-arthack'
+  createdAt: '2015-09-18T06:44:47.000Z'
+  title: Companion (Art~Hack, 18 September 2015)
+  description: |-
+    Improvised and recorded live at Art~Hack, Wellington using Loop Drop (loopjs.com)
+
+    A quick and dirty smashup/remix of "Personal Computer" by Silicon (godemoji.com)
+
+- type: youtube
+  url: 'https://www.youtube.com/watch?v=DbJKtI9Udog'
+  createdAt: 2015-09-10
+  title: Jamming with Loop Drop - Enter Player Two
+  description: Improvised and performed using Loop Drop (http://loopjs.com) and Novation Launch controllers (http://global.novationmusic.com/launch).
+
+
+- type: soundcloud
+  url: 'https://soundcloud.com/destroy-with-science/wat-megamix-3-september-2015'
+  createdAt: '2015-09-04T08:05:44.000Z'
+  title: Obvious To Everyone (3 September 2015)
+  description: |-
+    Improvised and recorded live at Art~Hack, Wellington using Loop Drop (loopjs.com)
+
+    A few nights ago, I gave a tech talk about Loop Drop and attempted to create a song from scratch in front of a live audience, sampling (by request) Gary Bernhardt's wat talk. It turned out a little less than average. So here's take two! A full 10 minutes of wat!!!
+
+    The wat talk if ya'll interested: www.destroyallsoftware.com/talks/wat
+
+- type: soundcloud
+  url: 'https://soundcloud.com/destroy-with-science/chillhack'
+  createdAt: '2015-08-28T14:07:05.000Z'
+  title: Uranium Breath (Art~Hack, 27 August 2015)
+  description: |-
+    Improvised and performed using Loop Drop (loopjs.com).
+
+    This week everyone was real chill so here's some politically charged trip hop featuring former prime minister of New Zealand, David Lange and his [in]famous nuclear weapons speech at the Oxford Union Debate, 1985.
+
+    www.youtube.com/watch?v=OeHTziiFVx0
+
+- type: soundcloud
+  url: 'https://soundcloud.com/destroy-with-science/rescued-from-arthack'
+  createdAt: '2015-08-21T07:45:06.000Z'
+  title: Rescued From Art~Hack (21 August 2015)
+  description: |-
+    2001 called, it wants its theme song back...
+    Shortland Street. And drums. And bass. A true kiwi classic.
+
+    The basis for this rave was www.youtube.com/watch?v=3KUL2BVBgJI
+
+- type: vimeo
+  url: 'https://vimeo.com/136783297'
+  createdAt: '2015-08-19 20:57:54'
+  title: Fre3Formd Hop Pulley Jig at Art~Hack Wellington
+  description: that time at Art~Hack Wellington when Gordon brought in 3d printed dremel jig and made some hop pulleys for his open source delta printer at fre3formd.co.nz/.
+
+- type: soundcloud
+  url: 'https://soundcloud.com/destroy-with-science/otter-rave-live-at-arthack'
+  createdAt: '2015-08-06T11:00:17.000Z'
+  title: Otter Rave (Art~Hack, 6 August 2015)
+  description: |-
+    10 minute rave at Art~Hack turned into a little bit more.
+
+    Original video: www.youtube.com/watch?v=zY3NJFfDB1M
+
+    Improvised and recorded using Loop Drop (loopjs.com)
+
+
 - type: facebook
+  url: 'https://www.facebook.com/kellective/videos/10153463944719512'
   permalinkUrl: "/groups/arthacknz/permalink/717663908380437/"
+  createdAt: '2015-07-29T11:12:00+0000'
   description: |-
     This night was particularly shiny  :)
     Sometimes it is quiet and sometimes there is yoga.
     Sometimes there is impromptu dancing.
-  createdAt: '2015-07-29T11:12:00+0000'
-  url: 'https://www.facebook.com/kellective/videos/10153463944719512'
   aspect: '640:1143'
+
+- type: soundcloud
+  url: 'https://soundcloud.com/destroy-with-science/live-at-arthack-wellington-full-set'
+  createdAt: '2015-07-10T09:47:26.000Z'
+  title: Live at Art~Hack, Full Set (9 July 2015)
+  description: |-
+    Recorded direct from line out. Improvised and performed entirely with Loop Drop (loopjs.com).
+
+    Trimmed and normalised with Ableton Live.
+
 - type: facebook
-  permalinkUrl: "/groups/arthacknz/permalink/717660855047409/"
-  description: Mikey TheHumans awesome LED + sound project
-  createdAt: '2015-07-29T10:58:17+0000'
   url: 'https://www.facebook.com/kellective/videos/10153463934564512'
+  permalinkUrl: "/groups/arthacknz/permalink/717660855047409/"
+  createdAt: '2015-07-29T10:58:17+0000'
+  description: Mikey TheHumans awesome LED + sound project
