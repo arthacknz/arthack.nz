@@ -5,6 +5,10 @@ import { useInView } from 'react-intersection-observer'
 import { useWindowWidth } from '@react-hook/window-size'
 import { Box, Flex, Text } from 'theme-ui'
 
+// TODO: find way to handle error when loading player's SDKs
+// for example, by default Firefox blocks loading Facebook's SDK.
+// which is sweet, but would be great to tell the user what's happening.
+
 export default function Gallery (props) {
   const galleryData = useStaticQuery(graphql`
     query gallery {
