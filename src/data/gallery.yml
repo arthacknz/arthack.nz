@@ -375,7 +375,7 @@
   description: IT'S SYNTH HACK YO!
   createdAt: '2017-11-02T07:51:03+0000'
   url: 'https://www.facebook.com/matt.mckegg/videos/10215297157723742'
-  aspect: 4:3
+  aspect: '4:3'
 - type: facebook
   permalinkUrl: "/groups/arthacknz/permalink/1261183637361792/"
   createdAt: '2017-10-26T09:53:40+0000'
