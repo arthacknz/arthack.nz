@@ -1,68 +1,82 @@
-import React from 'react'
+import React, { useMemo } from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
-import { ProGallery } from 'pro-gallery'
-import 'pro-gallery/dist/statics/main.css'
+import ReactPlayer from 'react-player/lazy'
+import { useInView } from 'react-intersection-observer'
+import { Box, Text } from 'rebass'
 
 export default function Videos (props) {
-  const facebookData = useStaticQuery(graphql`
-    query facebookVideos {
-      allFacebookVideos {
+  const videosData = useStaticQuery(graphql`
+    query videos {
+      allVideosYaml {
         nodes {
-          created_time
+          type
+          url
           description
-          id
-          permalink_url
-          picture
-          source
           title
+          createdAt
         }
       }
     }
   `)
-  const facebookVideos = facebookData.allFacebookVideos.nodes
+  const videos = videosData.allVideosYaml.nodes
 
-  const galleryItems = facebookVideos.map(facebookVideo => ({
-    itemId: facebookVideo.id,
-    mediaUrl: facebookVideo.source,
-    metaData: {
-      type: 'video',
-      title: facebookVideo.title,
-      description: facebookVideo.description,
-      poster: facebookVideo.picture,
-      link: {
-        url: `https://facebook.com/${facebookVideo.permalink_url}`,
-        target: '_blank'
-      }
-    }
-  }))
+  return <VideoGallery videos={videos} />
+}
 
-  const galleryOptions = {
-    allowTitle: true,
-    allowDescription: true,
-    allowDownload: false,
-    allowSocial: false,
-    loveButton: false,
-    useCustomButton: false,
-    itemClick: 'link',
-    /*
-    videoPlay: 'onHover',
-    */
-    videoSound: true
-  }
-
-  const galleryContainer = {
-    width: window.innerWidth,
-    height: window.innerHeight
-  }
-
-  const galleryScrollingElement = window
+function VideoGallery (props) {
+  const { videos } = props
 
   return (
-    <ProGallery
-      items={galleryItems}
-      options={galleryOptions}
-      container={galleryContainer}
-      scrollingElement={galleryScrollingElement}
-    />
+    <Box>
+      {videos.map(video => (
+        <VideoGalleryItem key={video.url} video={video} />
+      ))}
+    </Box>
   )
+}
+
+function VideoGalleryItem (props) {
+  const { video } = props
+  const { type, url, description, title, createdAt } = video
+
+  const [ref, inView] = useInView({
+    threshold: 0
+  })
+
+  const formattedCreatedAt = useMemo(() => {
+    return new Date(createdAt).toLocaleDateString()
+  }, [createdAt])
+
+  console.log('url', fullUrl(type, url))
+
+  return (
+    <Box ref={ref}>
+      {/*
+      {title && <Text as='h2'>{title}</Text>}
+      {description && <Text as='p'>{description}</Text>}
+      */}
+      {formattedCreatedAt && <Text as='p'>{formattedCreatedAt}</Text>}
+      {inView && (
+        <ReactPlayer
+          url={fullUrl(type, url)}
+          controls
+          config={{
+            facebook: {
+              appId: '301991207485717'
+            }
+          }}
+        />
+      )}
+    </Box>
+  )
+}
+
+function fullUrl (type, url) {
+  switch (type) {
+    case 'facebook':
+      if (url.startsWith('https://www.facebook.com')) return url
+      else return `https://www.facebook.com${url}`
+    default:
+      throw new Error(`unexpected video type: ${type}`)
+  }
 }
