@@ -1,21 +1,13 @@
 import React from 'react'
-import { createGlobalStyle } from 'styled-components'
-import { Box, Flex } from 'rebass/styled-components'
-import reset from 'styled-reset'
+import { Global, css } from '@emotion/core'
+import { Box, Flex } from 'theme-ui'
+import reset from 'emotion-reset'
 
 import SEO from './seo'
 
 import 'typeface-ibm-plex-sans'
 import 'typeface-ibm-plex-serif'
 import 'typeface-ibm-plex-mono'
-
-const GlobalStyle = createGlobalStyle`
-  ${reset}
-
-  * {
-    box-sizing: border-box;
-  }
-`
 
 const Layout = ({ header, children }) => (
   <Main>
@@ -36,7 +28,19 @@ const Layout = ({ header, children }) => (
         'peer-to-peer'
       ]}
     />
-    <GlobalStyle />
+    <Global
+      styles={css`
+        ${reset}
+
+        *, *::after, *::before {
+          box-sizing: border-box;
+          -moz-osx-font-smoothing: grayscale;
+          -webkit-font-smoothing: antialiased;
+          font-smoothing: antialiased;
+        }
+      `}
+    />
+
     {header}
     <Body>{children}</Body>
   </Main>

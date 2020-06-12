@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from 'gatsby'
 import ReactPlayer from 'react-player'
 import { useInView } from 'react-intersection-observer'
 import { useWindowWidth } from '@react-hook/window-size'
-import { Box, Flex, Text } from 'rebass'
+import { Box, Flex, Text } from 'theme-ui'
 
 export default function Gallery (props) {
   const galleryData = useStaticQuery(graphql`
@@ -104,7 +104,7 @@ function GalleryItem (props) {
       ref={containerRef}
       as='section'
       sx={{
-        margin: 4,
+        margin: [4, 4, 5],
         flexDirection: 'column',
         alignItems: 'center'
       }}
@@ -112,12 +112,14 @@ function GalleryItem (props) {
       {formattedCreatedAt && (
         <Text
           as='p'
-          p={3}
-          fontSize={[3, 4, 5]}
-          textAlign='center'
-          color='black'
-          fontFamily='body'
-          fontWeight='bold'
+          sx={{
+            padding: 3,
+            fontSize: [4, 5, 6],
+            textAlign: 'center',
+            color: 'text',
+            fontFamily: 'heading',
+            fontWeight: 'heading'
+          }}
         >
           {formattedCreatedAt}
         </Text>
@@ -125,12 +127,14 @@ function GalleryItem (props) {
       {title && (
         <Text
           as='h3'
-          p={1}
-          fontSize={[4, 5, 6]}
-          textAlign='center'
-          color='black'
-          fontFamily='body'
-          fontWeight='bold'
+          sx={{
+            padding: 1,
+            fontSize: [5, 6, 7],
+            textAlign: 'center',
+            color: 'text',
+            fontFamily: 'body',
+            fontWeight: 'bold'
+          }}
         >
           {title}
         </Text>
@@ -138,12 +142,15 @@ function GalleryItem (props) {
       {description && (
         <Text
           as='p'
+          sx={{
+            padding: 2,
+            fontSize: [2, 3, 4],
+            textAlign: 'center',
+            color: 'text',
+            fontFamily: 'body',
+            fontWeight: 'body'
+          }}
           p={2}
-          fontSize={[1, 2, 3]}
-          textAlign='center'
-          color='black'
-          fontFamily='body'
-          fontWeight='bold'
         >
           {description}
         </Text>
