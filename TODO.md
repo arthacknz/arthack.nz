@@ -1,0 +1,9 @@
+- facebook data
+  - query Facebook recursively
+      - https://gitlab.com/kada-development/gatsby-source-facebook/-/blob/master/src/gatsby-node.ts
+      - or just manually query and code up a list
+          - https://developers.facebook.com/tools/explorer/?method=GET&path=714447698702058%2Fvideos&version=v7.0
+  - figure out how to renew access tokens
+- pro-gallery ->
+  - react-player
+  - pro-layouts

@@ -1,3 +1,11 @@
+require('dotenv').config()
+
+const FACEBOOK_GROUP_ID = '714447698702058'
+const FACEBOOK_FIELDS = console.log(
+  'process',
+  process.env.FACEBOOK_ACCESS_TOKEN
+)
+
 module.exports = {
   siteMetadata: {
     title: 'Art~Hack Wellington',
@@ -23,6 +31,29 @@ module.exports = {
     'gatsby-plugin-styled-components',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
+    'gatsby-plugin-sass', // for pro-gallery
+    // TODO query for more than 40 latest live streams
+    {
+      resolve: `gatsby-source-facebook`,
+      options: {
+        places: [`${FACEBOOK_GROUP_ID}`],
+        params: {
+          fields: `
+            videos.limit(40) {
+              id,
+              permalink_url,
+              created_time,
+              title,
+              description,
+              source,
+              picture
+            }
+          `
+        },
+        key: process.env.FACEBOOK_ACCESS_TOKEN,
+        version: '7.0'
+      }
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

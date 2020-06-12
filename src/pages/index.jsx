@@ -7,6 +7,7 @@ import { FaFacebook, FaYoutube } from 'react-icons/fa'
 
 import icon from '../images/icon.png'
 import Layout from '../components/layout'
+import Videos from '../components/videos'
 
 const meta = {
   facebookUrl: 'https://www.facebook.com/groups/714447698702058/',
@@ -14,7 +15,7 @@ const meta = {
 }
 
 function LandingPage () {
-  return <Layout header={<Hero />}>{/* <JamSection /> */}</Layout>
+  return <Layout header={<Hero />}><VideosSection /></Layout>
 }
 
 export default LandingPage
@@ -137,8 +138,8 @@ function Hero () {
   )
 }
 
-function JamSection () {
-  return 'Jam'
+function VideosSection () {
+  return <Videos />
 }
 
 /* utils */
