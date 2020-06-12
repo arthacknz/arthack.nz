@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react'
+import React, { useEffect, useMemo, useState } from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import ReactPlayer from 'react-player'
 import { useInView } from 'react-intersection-observer'
@@ -51,6 +51,10 @@ function GalleryItem (props) {
   if (aspect == null) {
     aspect = DEFAULT_PLAYER_ASPECT
   }
+
+  // force update for window width
+  const [, forceUpdate] = useState()
+  useEffect(() => forceUpdate(), [])
 
   const width = usePlayerWidth()
   const height = useMemo(() => {
