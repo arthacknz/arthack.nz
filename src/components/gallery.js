@@ -97,6 +97,12 @@ function GalleryItem (props) {
     if (isPlaying && shouldPause) {
       if (type === 'facebook') {
         internalPlayer.pause()
+      } else if (type === 'youtube') {
+        internalPlayer.pauseVideo()
+      } else if (type === 'soundcloud') {
+        internalPlayer.pause()
+      } else if (type === 'vimeo') {
+        internalPlayer.pause()
       } else {
         throw new Error('unimplemented')
       }
@@ -174,7 +180,7 @@ function GalleryItem (props) {
           {(inView || mayBePlaying) && (
             <ReactPlayer
               ref={playerRef}
-              url={fullUrl(type, url)}
+              url={url}
               controls
               width='100%'
               height='100%'
@@ -190,16 +196,6 @@ function GalleryItem (props) {
       )}
     </Flex>
   )
-}
-
-function fullUrl (type, url) {
-  switch (type) {
-    case 'facebook':
-      if (url.startsWith('https://www.facebook.com')) return url
-      else return `https://www.facebook.com${url}`
-    default:
-      throw new Error(`unexpected video type: ${type}`)
-  }
 }
 
 function usePlayerWidth () {
