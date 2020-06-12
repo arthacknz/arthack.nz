@@ -60,6 +60,11 @@ function GalleryItem (props) {
     aspect = DEFAULT_PLAYER_ASPECT
   }
 
+  // force second-pass of rendering for server-side rendering (ssr) bug
+  // to do with client viewport
+  const [isClient, setIsClient] = useState(false)
+  useEffect(() => setIsClient(true), [])
+
   const width = usePlayerWidth()
   const height = useMemo(() => {
     return calculateHeight(width, aspect)
@@ -143,28 +148,30 @@ function GalleryItem (props) {
           {description}
         </Text>
       )}
-      <Box
-        sx={{
-          width: `${width}px`,
-          height: `${height}px`
-        }}
-      >
-        {(inView || mayBePlaying) && (
-          <ReactPlayer
-            ref={playerRef}
-            url={fullUrl(type, url)}
-            controls
-            width='100%'
-            height='100%'
-            config={{
-              facebook: {
-                appId: '301991207485717'
-              }
-            }}
-            onPlay={handlePlay}
-          />
-        )}
-      </Box>
+      {isClient && (
+        <Box
+          sx={{
+            width: `${width}px`,
+            height: `${height}px`
+          }}
+        >
+          {(inView || mayBePlaying) && (
+            <ReactPlayer
+              ref={playerRef}
+              url={fullUrl(type, url)}
+              controls
+              width='100%'
+              height='100%'
+              config={{
+                facebook: {
+                  appId: '301991207485717'
+                }
+              }}
+              onPlay={handlePlay}
+            />
+          )}
+        </Box>
+      )}
     </Flex>
   )
 }
