@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react'
+import React, { useCallback, useMemo, useState } from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import ReactPlayer from 'react-player'
 import { useInView } from 'react-intersection-observer'
@@ -28,6 +28,8 @@ export default function Gallery (props) {
 function GalleryList (props) {
   const { items } = props
 
+  const [currentPlaying, setCurrentPlaying] = useState(null)
+
   return (
     <Flex
       sx={{
@@ -36,7 +38,12 @@ function GalleryList (props) {
       }}
     >
       {items.map(item => (
-        <GalleryItem key={item.url} item={item} />
+        <GalleryItem
+          key={item.url}
+          item={item}
+          onPlay={() => setCurrentPlaying(item.url)}
+          isPlaying={currentPlaying === item.url}
+        />
       ))}
     </Flex>
   )
@@ -45,7 +52,7 @@ function GalleryList (props) {
 const DEFAULT_PLAYER_ASPECT = '16:9'
 
 function GalleryItem (props) {
-  const { item } = props
+  const { item, isPlaying, onPlay } = props
   let { type, url, description, title, createdAt, aspect } = item
 
   if (aspect == null) {
@@ -120,7 +127,7 @@ function GalleryItem (props) {
           height: `${height}px`
         }}
       >
-        {inView && (
+        {(inView || isPlaying) && (
           <ReactPlayer
             url={fullUrl(type, url)}
             controls
@@ -131,6 +138,8 @@ function GalleryItem (props) {
                 appId: '301991207485717'
               }
             }}
+            playing={isPlaying}
+            onPlay={onPlay}
           />
         )}
       </Box>
