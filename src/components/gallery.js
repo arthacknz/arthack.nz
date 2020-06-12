@@ -1,4 +1,4 @@
-import React, { useCallback, useMemo, useState } from 'react'
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import ReactPlayer from 'react-player'
 import { useInView } from 'react-intersection-observer'
@@ -42,7 +42,8 @@ function GalleryList (props) {
           key={item.url}
           item={item}
           onPlay={() => setCurrentPlaying(item.url)}
-          isPlaying={currentPlaying === item.url}
+          mayBePlaying={currentPlaying === item.url}
+          shouldPause={currentPlaying !== item.url}
         />
       ))}
     </Flex>
@@ -52,7 +53,7 @@ function GalleryList (props) {
 const DEFAULT_PLAYER_ASPECT = '16:9'
 
 function GalleryItem (props) {
-  const { item, isPlaying, onPlay } = props
+  const { item, mayBePlaying, shouldPause, onPlay } = props
   let { type, url, description, title, createdAt, aspect } = item
 
   if (aspect == null) {
@@ -64,7 +65,7 @@ function GalleryItem (props) {
     return calculateHeight(width, aspect)
   }, [width, aspect])
 
-  const [ref, inView] = useInView({
+  const [containerRef, inView] = useInView({
     threshold: 0
   })
 
@@ -72,9 +73,30 @@ function GalleryItem (props) {
     return new Date(createdAt).toLocaleDateString()
   }, [createdAt])
 
+  // handle play / pause using internal player
+  const playerRef = useRef()
+  const [isPlaying, setIsPlaying] = useState(false)
+  useEffect(() => {
+    if (playerRef.current == null) return
+    const internalPlayer = playerRef.current.getInternalPlayer()
+
+    if (isPlaying && shouldPause) {
+      if (type === 'facebook') {
+        internalPlayer.pause()
+      } else {
+        throw new Error('unimplemented')
+      }
+    }
+  }, [type, playerRef, isPlaying, shouldPause])
+  const handlePlay = useCallback(() => {
+    // order matters: need to set parent state first, otherwise will immediately pause
+    onPlay()
+    setIsPlaying(true)
+  }, [setIsPlaying])
+
   return (
     <Flex
-      ref={ref}
+      ref={containerRef}
       as='section'
       sx={{
         margin: 4,
@@ -127,8 +149,9 @@ function GalleryItem (props) {
           height: `${height}px`
         }}
       >
-        {(inView || isPlaying) && (
+        {(inView || mayBePlaying) && (
           <ReactPlayer
+            ref={playerRef}
             url={fullUrl(type, url)}
             controls
             width='100%'
@@ -138,8 +161,7 @@ function GalleryItem (props) {
                 appId: '301991207485717'
               }
             }}
-            playing={isPlaying}
-            onPlay={onPlay}
+            onPlay={handlePlay}
           />
         )}
       </Box>
