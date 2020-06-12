@@ -31,8 +31,8 @@ function Hero () {
         justifyContent: 'center',
         alignItems: 'center',
         textAlign: 'center',
-        background: ({ colors }) => (
-          `linear-gradient(0deg, ${colors.primary[0]}, ${colors.primary[1]})`
+        background: ({ colors: { gradients: { canYouFeelTheLoveTonight: gradient } } }) => (
+          `linear-gradient(0deg, ${gradient[0]}, ${gradient[1]})`
         )
       }}
     >

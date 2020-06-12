@@ -34,7 +34,12 @@ function GalleryList (props) {
     <Flex
       sx={{
         flexDirection: 'column',
-        alignItems: 'center'
+        alignItems: 'center',
+        background: ({
+          colors: {
+            gradients: { harmonizedBlurryBeach: gradient }
+          }
+        }) => `linear-gradient(0deg, ${gradient[0]}, ${gradient[1]})`
       }}
     >
       {items.map(item => (
