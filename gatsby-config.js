@@ -1,11 +1,3 @@
-require('dotenv').config()
-
-const FACEBOOK_GROUP_ID = '714447698702058'
-const FACEBOOK_FIELDS = console.log(
-  'process',
-  process.env.FACEBOOK_ACCESS_TOKEN
-)
-
 module.exports = {
   siteMetadata: {
     title: 'Art~Hack Wellington',

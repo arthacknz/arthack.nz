@@ -5,6 +5,7 @@
   "private": true,
   "author": "Michael Williams <michael.williams@enspiral.com>",
   "dependencies": {
+    "@react-hook/window-size": "^3.0.6",
     "a11y-react-emoji": "^1.1.1",
     "gatsby": "^2.17.2",
     "gatsby-image": "^2.2.29",
