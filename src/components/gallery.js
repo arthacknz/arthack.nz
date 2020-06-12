@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
-import ReactPlayer from 'react-player'
+import ReactPlayer from 'react-player/lazy'
 import { useInView } from 'react-intersection-observer'
 import { useWindowWidth } from '@react-hook/window-size'
 import { Box, Flex, Text } from 'theme-ui'
