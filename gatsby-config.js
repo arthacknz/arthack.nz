@@ -20,7 +20,14 @@ module.exports = {
         path: `${__dirname}/src/pages`
       }
     },
-    'gatsby-plugin-styled-components',
+    'gatsby-transformer-yaml',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/data`
+      }
+    },
+    'gatsby-plugin-theme-ui',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {

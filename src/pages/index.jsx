@@ -1,5 +1,5 @@
 import React from 'react'
-import { Flex, Text, Image, Link } from 'rebass/styled-components'
+import { Flex, Text, Image, Link } from 'theme-ui'
 // import { StaticQuery, graphql } from 'gatsby'
 // import Img from 'gatsby-image'
 import Emoji from 'a11y-react-emoji'
@@ -7,6 +7,7 @@ import { FaFacebook, FaYoutube } from 'react-icons/fa'
 
 import icon from '../images/icon.png'
 import Layout from '../components/layout'
+import Gallery from '../components/gallery'
 
 const meta = {
   facebookUrl: 'https://www.facebook.com/groups/714447698702058/',
@@ -14,7 +15,7 @@ const meta = {
 }
 
 function LandingPage () {
-  return <Layout header={<Hero />}>{/* <JamSection /> */}</Layout>
+  return <Layout header={<Hero />}><GallerySection /></Layout>
 }
 
 export default LandingPage
@@ -23,48 +24,40 @@ function Hero () {
   return (
     <Flex
       as='header'
-      padding={[3, 4, 5]}
-      flexDirection='column'
-      justifyContent='center'
-      alignItems='center'
-      textAlign='center'
-      css={`
-        background: ${({ theme: { colors } }) =>
-      `linear-gradient(0deg, ${colors.primary[0]}, ${colors.primary[1]})`};
-      `}
       sx={{
-        height: '100vh'
-        /*
-        borderBottomWidth: 8,
-        borderBottomStyle: 'solid',
-        borderBottomColor: 'dark'
-        */
+        height: '100vh',
+        padding: [3, 4, 5],
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+        textAlign: 'center',
+        background: ({ colors: { gradients: { canYouFeelTheLoveTonight: gradient } } }) => (
+          `linear-gradient(0deg, ${gradient[0]}, ${gradient[1]})`
+        )
       }}
     >
-      <Image height='30vh' src={icon} />
+      <Image sx={{ height: '30vh' }} src={icon} />
       <Flex
-        flex='1'
-        flexDirection='row'
-        justifyContent='center'
-        alignItems='baseline'
-        flexWrap='wrap'
-        fontSize={[5, 6, 7]}
+        sx={{
+          flex: 1,
+          flexDirection: 'row',
+          justifyContent: 'center',
+          alignItems: 'baseline',
+          flexWrap: 'wrap',
+          fontSize: [6, 7, 8]
+        }}
       >
-        <Text
-          as={Emoji}
-          mx={3}
-          symbol='✨'
-          label='sparkles'
-          sx={{ order: [1, 0, 0] }}
-        />
+        <Text sx={{ marginX: 3, order: [1, 0, 0] }}>
+          <Emoji symbol='✨' label='sparkles' />
+        </Text>
         <Text
           as='h1'
-          p={3}
-          color={'white'}
-          fontFamily='headline'
-          fontWeight='bold'
-          flex={['100%', 1, 1]}
           sx={{
+            padding: 3,
+            color: 'white',
+            fontFamily: 'headline',
+            fontWeight: 'bold',
+            flex: ['100%', 1, 1],
             order: [0, 1, 1],
             '-webkitTextStroke': ['1px #000', '1px #000', '2px #000'],
             textShadow: [
@@ -94,18 +87,20 @@ function Hero () {
         >
           Art~Hack
         </Text>
-        <Text as={Emoji} mx={3} symbol='🌈' label='rainbow' sx={{ order: 2 }} />
+        <Text sx={{ marginX: 3, order: 2 }}>
+          <Emoji symbol='🌈' label='rainbow' />
+        </Text>
       </Flex>
       <Text
         as='p'
-        p={3}
-        color={'white'}
-        fontSize={[3, 4, 5]}
-        fontFamily='headline'
-        fontWeight='bold'
-        lineHeight={[4, 5, 6]}
-        flex='2'
         sx={{
+          padding: 3,
+          color: 'white',
+          fontSize: [4, 5, 6],
+          fontFamily: 'headline',
+          fontWeight: 'bold',
+          lineHeight: 2,
+          flex: 2,
           maxWidth: '64rem',
           '-webkitTextStroke': ['1px #000', '1px #000', '2px #000'],
           textShadow: [
@@ -137,8 +132,8 @@ function Hero () {
   )
 }
 
-function JamSection () {
-  return 'Jam'
+function GallerySection () {
+  return <Gallery />
 }
 
 /* utils */
@@ -147,11 +142,11 @@ function Section (props) {}
 function SocialIcons (props) {
   const { isWhite } = props
   return (
-    <Flex flexDirection='row' justifyContent='center' alignItems='center'>
-      <Link marginX={3} href={meta.facebookUrl}>
+    <Flex sx={{ flexDirection: 'row', justifyContent: 'center', alignItems: 'center' }}>
+      <Link sx={{ marginX: 3 }} href={meta.facebookUrl}>
         <FaFacebook size={'4em'} color={isWhite ? 'white' : '#3b5998'} />
       </Link>
-      <Link marginX={3} href={meta.youtubeUrl}>
+      <Link sx={{ marginX: 3 }} href={meta.youtubeUrl}>
         <FaYoutube size={'4em'} color={isWhite ? 'white' : '#e52d27'} />
       </Link>
     </Flex>
@@ -164,8 +159,8 @@ function PrettyLink (props) {
     <Link
       href={href}
       target='_window'
-      color='primary.1'
       sx={{
+        color: 'primary.1',
         textDecoration: 'none',
         ':hover': { textDecoration: 'underline' }
       }}
