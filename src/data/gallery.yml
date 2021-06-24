@@ -1,6 +1,264 @@
 # hello!
 #
 # thanks for contributing :D
+#
+
+- type: facebook
+  url: https://www.facebook.com/matt.mckegg/videos/10227161798532347/
+  permalinkUrl: /groups/arthacknz/permalink/2526224637524346/
+  title: LIVECODEZ
+  description: |-
+    Visuals: VISOR - Jack Purvis
+    Sounds: late majority
+  createdAt: 2021-06-17T21:11:00+12:00
+
+- type: soundcloud
+  url: https://soundcloud.com/destroy-with-science/destroyed-by-silence-live-at-arthack-10-june-2021
+  title: DESTROYED BY SILENCE [live at Art~Hack 10 June 2021]
+  description: 🥶🥵
+  createdAt: 2021-06-10T23:31:33.000Z
+
+- type: facebook
+  url: https://www.facebook.com/michaeljwilliams/videos/10223483032437973/
+  permalinkUrl: /groups/arthacknz/permalink/2519633801516763/
+  title: hey jam!
+  description: Late majority and Seba Milla
+  createdAt: 2021-06-10T08:39:20+0000
+
+- type: facebook
+  url: https://www.facebook.com/michaeljwilliams/videos/10223435134240548/
+  permalinkUrl: /groups/arthacknz/permalink/2513312375482239/
+  title: a wild art hack appears!
+  description: Dan Tong (Late Majority) and Eduardo Delgado (Space Ed) on the sounds, Daniel Webster on the lasers! 🌈🌈
+  createdAt: 2021-06-03T08:49:25+0000
+
+- type: facebook
+  url: https://www.facebook.com/matt.mckegg/videos/10226955839983512/
+  permalinkUrl: /groups/arthacknz/permalink/2499155713564572/
+  title: Minilektro in the house!
+  createdAt: 2021-05-20T19:42:00+12:00
+
+- type: facebook
+  url: https://www.facebook.com/matt.mckegg/videos/10226845180057083/
+  permalinkUrl: /groups/arthacknz/permalink/2484417038371773/
+  title: PereScope X DESTROY WITH SCIENCE
+  description: |-
+    Music: DESTROY WITH SCIENCE 
+    Microscopy visuals: PereScope
+  createdAt: 2021-05-06T22:09:00+12:00
+
+- type: facebook
+  url: https://www.facebook.com/matt.mckegg/videos/10226844795247463/
+  permalinkUrl: /groups/arthacknz/permalink/2484370148376462/
+  title: PereScope X Space-Ed X Late majority
+  description: |-
+    Music: Space-Ed X Late majority
+    Microscopy visuals: PereScope
+  createdAt: 2021-05-06T20:40:00+12:00
+
+- type: soundcloud
+  url: https://soundcloud.com/destroy-with-science/the-sounds-produced-electronically-live-at-arthack-15-april-2021
+  title: THE SOUNDS PRODUCED ELECTRONICALLY [live at Art~Hack 15 April 2021] 
+  description: The sounds, produced electronically, are recorded on tape. Already electronic music is being used films, television and the theatre. And there have been concert performances too.
+  createdAt: 2021-04-16T02:26:03.000Z
+
+- type: facebook
+  url: https://www.facebook.com/matt.mckegg/videos/10226587058924216/
+  permalinkUrl: /groups/arthacknz/permalink/2451439685002842/
+  title: Matt McKegg was live in Art~Hack Wellington — with Ben Nolan and Jack Purvis.
+  createdAt: 2021-04-01T21:52:00+13:00
+
+- type: facebook
+  url: https://www.facebook.com/matt.mckegg/videos/10226587015203123/
+  permalinkUrl: /groups/arthacknz/permalink/2451433145003496/
+  title: Matt McKegg was live in Art~Hack Wellington — with Jack Purvis and Dan Tong.
+  createdAt: 2021-04-01T21:39:00+13:00
+
+- type: soundcloud
+  url: https://soundcloud.com/destroy-with-science/nobody-else-moves-up-and-down-like-a-revolution-in-the-sky-live-at-arthack-25-march-2021
+  title: NOBODY ELSE MOVES UP AND DOWN LIKE A REVOLUTION IN THE SKY [live at Art~Hack 25 March 2021]
+  description: Prepping some techno for Cuba Dupa. Things got deeep.
+  createdAt: 2021-03-26T02:00:18.000Z
+
+- type: facebook
+  url: https://www.facebook.com/matt.mckegg/videos/10226001114075961/
+  permalinkUrl: /groups/arthacknz/permalink/2386647728148705/
+  title: Pre-burn crunch! Less than a week until kiwiburn!
+  createdAt: 2021-01-21T22:40:00+13:00
+
+# https://www.youtube.com/playlist?list=PLthlU66Iq8RgHemm_xCjyhVV3SUE2tVBI
+
+- type: youtube
+  url: https://www.youtube.com/watch?v=w6Zad4B5Sls
+  title: DJACK @ Camp Art~Hack 2020
+  description: DJ set recorded live at Camp Art~Hack 2020 in a remote hut near Cape
+    Palliser, New Zealand.
+  createdAt: '2020-12-08T00:00:00Z'
+
+- type: youtube
+  url: https://www.youtube.com/watch?v=v7-DZL0ppjo
+  title: DESTROY WITH SCIENCE @ Camp Art~Hack 2020
+  description: 'Recorded live at Camp Art~Hack 2020 in a remote hut near Cape Palliser,
+    New Zealand.
+
+
+    https://destroywithscience.bandcamp.com
+
+    https://soundcloud.com/destroy-with-science'
+  createdAt: '2020-12-08T00:00:00Z'
+
+- type: youtube
+  url: https://www.youtube.com/watch?v=-QejqmGJFQA
+  title: Skeezy Vibes @ Camp Art~Hack 2020
+  description: Recorded live at Camp Art~Hack 2020 in a remote hut near Cape Palliser,
+    New Zealand.
+  createdAt: '2020-12-08T00:00:00Z'
+
+- type: youtube
+  url: https://www.youtube.com/watch?v=CFWd8mhpIjc
+  title: DJ Masseyuni @ Camp Art~Hack 2020
+  description: DJ set recorded live at Camp Art~Hack 2020 in a remote hut near Cape
+    Palliser, New Zealand.
+  createdAt: '2020-12-07T00:00:00Z'
+
+- type: youtube
+  url: https://www.youtube.com/watch?v=NB3Ex5LuncU
+  title: Late Majority @ Camp Art~Hack 2020
+  description: Recorded live at Camp Art~Hack 2020 in a remote hut near Cape Palliser,
+    New Zealand.
+  createdAt: '2020-12-08T00:00:00Z'
+
+- type: youtube
+  url: https://www.youtube.com/watch?v=kgCZNjg2dJk
+  title: Space Ed @ Camp Art~Hack 2020
+  description: 'Recorded live at Camp Art~Hack 2020 in a remote hut near Cape Palliser,
+    New Zealand.
+
+
+    https://www.facebook.com/spaceedmusic
+
+    https://space-ed.bandcamp.com/'
+  createdAt: '2020-12-08T00:00:00Z'
+
+- type: youtube
+  url: https://www.youtube.com/watch?v=Qgk7wMuaNnI
+  title: ESCAPE FROM PLANET TECHNO (live coded visuals by VISOR)
+  description: A "from scratch" session featuring myself and VISOR (aka Jack Purvis). I lay down some improvised ambient techno while Jack live codes the magic sparkle.
+  createdAt: 2020-10-10
+
+- type: facebook
+  url: https://www.facebook.com/matt.mckegg/videos/10225109892475978/
+  permalinkUrl: /groups/arthacknz/permalink/2271713669642112/
+  title: forgot to bring the right cables to livestream
+  description: I forgot to bring the right cables to livestream last night. But I did video my DESTROY WITH SCIENCE set! Visuals by Cody Ellingham
+  createdAt: 2020-10-02T18:13:00+13:00
+
+- type: soundcloud
+  url: https://soundcloud.com/destroy-with-science/arthack-24-september-2020-improv-session
+  title:  Art~Hack 24 September 2020 [improv session] 
+  description: Twiddle all the knobs. But do it slowly and not all at once. Until the end that is.
+  createdAt: 2020-09-25T02:20:22.000Z
+
+- type: facebook
+  url: https://www.facebook.com/matt.mckegg/videos/10225041553047535/
+  permalinkUrl: /groups/arthacknz/permalink/2263131380500341/
+  title: "Late Majority" is right on time
+  description: "Late Majority" is right on time
+  createdAt: 2020-09-24T21:18:00+12:00
+
+- type: facebook
+  url: https://www.facebook.com/matt.mckegg/videos/10224980757207677/
+  permalinkUrl: /groups/arthacknz/permalink/2255409751272504/
+  title: destroyed by silence
+  description: tweak tweak eat a synth noodle
+  createdAt: 2020-09-17T22:13:00+12:00
+
+- type: facebook
+  url: https://www.facebook.com/matt.mckegg/videos/10224980468120450/
+  permalinkUrl: /groups/arthacknz/permalink/2255371011276378/
+  title: stwreeam
+  description: AWRT HWAK
+  createdAt: 2020-09-17T21:17:00+12:00
+
+# https://www.youtube.com/playlist?list=PLZNucG2f5UZcXVOoKHrasvbwIl7QthBWV
+
+- type: youtube
+  url: https://www.youtube.com/watch?v=1a2H-lpUAno
+  title: Plan C [LEVEL 2 WEEKEND listening party]
+  description: 'TRACK 7
+
+    https://destroywithscience.bandcamp.com/album/level-2-weekend'
+  createdAt: '2020-08-20T00:00:00Z'
+
+- type: youtube
+  url: https://www.youtube.com/watch?v=dne6v6RhnA8
+  title: Pressed [LEVEL 2 WEEKEND listening party]
+  description: 'TRACK 6
+
+    https://destroywithscience.bandcamp.com/album/level-2-weekend'
+  createdAt: '2020-08-20T00:00:00Z'
+
+- type: youtube
+  url: https://www.youtube.com/watch?v=iqxHNCOdOO8
+  title: Become [LEVEL 2 WEEKEND listening party]
+  description: 'TRACK 5
+
+    https://destroywithscience.bandcamp.com/album/level-2-weekend'
+  createdAt: '2020-08-20T00:00:00Z'
+
+- type: youtube
+  url: https://www.youtube.com/watch?v=wgFC58XI_5U
+  title: Ground Loop [LEVEL 2 WEEKEND listening party]
+  description: 'TRACK 4
+
+    https://destroywithscience.bandcamp.com/album/level-2-weekend'
+  createdAt: '2020-08-20T00:00:00Z'
+
+- type: youtube
+  url: https://www.youtube.com/watch?v=kKH8TXglkrc
+  title: Moon Ray [LEVEL 2 WEEKEND listening party]
+  description: 'TRACK 3
+
+    https://destroywithscience.bandcamp.com/album/level-2-weekend'
+  createdAt: '2020-08-20T00:00:00Z'
+
+- type: youtube
+  url: https://www.youtube.com/watch?v=vDu3zoA3Blg
+  title: Dabbler [LEVEL 2 WEEKEND listening party]
+  description: 'TRACK 2
+
+    https://destroywithscience.bandcamp.com/album/level-2-weekend'
+  createdAt: '2020-08-20T00:00:00Z'
+
+
+- type: youtube
+  url: https://www.youtube.com/watch?v=BahpJn5hED0
+  title: Your Day [LEVEL 2 WEEKEND listening party]
+  description: 'TRACK 1
+
+    https://destroywithscience.bandcamp.com/album/level-2-weekend'
+  createdAt: '2020-08-20T00:00:00Z'
+
+
+- type: facebook
+  url: https://www.facebook.com/matt.mckegg/videos/10224740396958821/
+  permalinkUrl: /groups/arthacknz/permalink/2225049507641862/
+  title: ART HACK BANGERS
+  description: |-
+    WE ARE LIVE AND ALIVE ETC
+    8:30 SPACE ED!
+    9:00 Edgelords
+    9:30 SKEEZY VIBES
+    10:00 DESTROY WITH SCIENCE
+    10:45 DJ AUDIOVISOR
+  createdAt: 2020-08-20T20:35:00+12:00
+
+- type: facebook
+  url: https://www.facebook.com/michaeljwilliams/videos/10220915564132870/
+  permalinkUrl: /groups/arthacknz/permalink/2164168010396679/
+  title: short days and long nights
+  description: 💃💃
+  createdAt: 2020-06-25T21:44:00+12:00
 
 - type: facebook
   url: https://www.facebook.com/michaeljwilliams/videos/10220851531092084/
