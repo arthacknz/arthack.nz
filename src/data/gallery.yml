@@ -16,7 +16,7 @@
   url: https://soundcloud.com/destroy-with-science/destroyed-by-silence-live-at-arthack-10-june-2021
   title: DESTROYED BY SILENCE [live at Art~Hack 10 June 2021]
   description: 🥶🥵
-  createdAt: 2021-06-10T23:31:33.000Z
+  createdAt: 2021-06-10T23:31:33+00:00
 
 - type: facebook
   url: https://www.facebook.com/michaeljwilliams/videos/10223483032437973/
@@ -60,7 +60,7 @@
   url: https://soundcloud.com/destroy-with-science/the-sounds-produced-electronically-live-at-arthack-15-april-2021
   title: THE SOUNDS PRODUCED ELECTRONICALLY [live at Art~Hack 15 April 2021] 
   description: The sounds, produced electronically, are recorded on tape. Already electronic music is being used films, television and the theatre. And there have been concert performances too.
-  createdAt: 2021-04-16T02:26:03.000Z
+  createdAt: 2021-04-16T02:26:03+00:00
 
 - type: facebook
   url: https://www.facebook.com/matt.mckegg/videos/10226587058924216/
@@ -78,7 +78,7 @@
   url: https://soundcloud.com/destroy-with-science/nobody-else-moves-up-and-down-like-a-revolution-in-the-sky-live-at-arthack-25-march-2021
   title: NOBODY ELSE MOVES UP AND DOWN LIKE A REVOLUTION IN THE SKY [live at Art~Hack 25 March 2021]
   description: Prepping some techno for Cuba Dupa. Things got deeep.
-  createdAt: 2021-03-26T02:00:18.000Z
+  createdAt: 2021-03-26T02:00:18+00:00
 
 - type: facebook
   url: https://www.facebook.com/matt.mckegg/videos/10226001114075961/
@@ -93,7 +93,7 @@
   title: DJACK @ Camp Art~Hack 2020
   description: DJ set recorded live at Camp Art~Hack 2020 in a remote hut near Cape
     Palliser, New Zealand.
-  createdAt: '2020-12-08T00:00:00Z'
+  createdAt: '2020-12-08T00:00+00:00'
 
 - type: youtube
   url: https://www.youtube.com/watch?v=v7-DZL0ppjo
@@ -105,28 +105,28 @@
     https://destroywithscience.bandcamp.com
 
     https://soundcloud.com/destroy-with-science'
-  createdAt: '2020-12-08T00:00:00Z'
+  createdAt: '2020-12-08T00:00+00:00'
 
 - type: youtube
   url: https://www.youtube.com/watch?v=-QejqmGJFQA
   title: Skeezy Vibes @ Camp Art~Hack 2020
   description: Recorded live at Camp Art~Hack 2020 in a remote hut near Cape Palliser,
     New Zealand.
-  createdAt: '2020-12-08T00:00:00Z'
+  createdAt: '2020-12-08T00:00+00:00'
 
 - type: youtube
   url: https://www.youtube.com/watch?v=CFWd8mhpIjc
   title: DJ Masseyuni @ Camp Art~Hack 2020
   description: DJ set recorded live at Camp Art~Hack 2020 in a remote hut near Cape
     Palliser, New Zealand.
-  createdAt: '2020-12-07T00:00:00Z'
+  createdAt: '2020-12-07T00:00+00:00'
 
 - type: youtube
   url: https://www.youtube.com/watch?v=NB3Ex5LuncU
   title: Late Majority @ Camp Art~Hack 2020
   description: Recorded live at Camp Art~Hack 2020 in a remote hut near Cape Palliser,
     New Zealand.
-  createdAt: '2020-12-08T00:00:00Z'
+  createdAt: '2020-12-08T00:00+00:00'
 
 - type: youtube
   url: https://www.youtube.com/watch?v=kgCZNjg2dJk
@@ -138,12 +138,12 @@
     https://www.facebook.com/spaceedmusic
 
     https://space-ed.bandcamp.com/'
-  createdAt: '2020-12-08T00:00:00Z'
+  createdAt: '2020-12-08T00:00+00:00'
 
 - type: youtube
   url: https://www.youtube.com/watch?v=Qgk7wMuaNnI
   title: ESCAPE FROM PLANET TECHNO (live coded visuals by VISOR)
-  description: A "from scratch" session featuring myself and VISOR (aka Jack Purvis). I lay down some improvised ambient techno while Jack live codes the magic sparkle.
+  description: A \"from scratch\" session featuring myself and VISOR (aka Jack Purvis). I lay down some improvised ambient techno while Jack live codes the magic sparkle.
   createdAt: 2020-10-10
 
 - type: facebook
@@ -157,13 +157,13 @@
   url: https://soundcloud.com/destroy-with-science/arthack-24-september-2020-improv-session
   title:  Art~Hack 24 September 2020 [improv session] 
   description: Twiddle all the knobs. But do it slowly and not all at once. Until the end that is.
-  createdAt: 2020-09-25T02:20:22.000Z
+  createdAt: 2020-09-25T02:20:22+00:00
 
 - type: facebook
   url: https://www.facebook.com/matt.mckegg/videos/10225041553047535/
   permalinkUrl: /groups/arthacknz/permalink/2263131380500341/
-  title: "Late Majority" is right on time
-  description: "Late Majority" is right on time
+  title: \"Late Majority\" is right on time
+  description: \"Late Majority\" is right on time
   createdAt: 2020-09-24T21:18:00+12:00
 
 - type: facebook
@@ -188,7 +188,7 @@
   description: 'TRACK 7
 
     https://destroywithscience.bandcamp.com/album/level-2-weekend'
-  createdAt: '2020-08-20T00:00:00Z'
+  createdAt: '2020-08-20T00:00+00:00'
 
 - type: youtube
   url: https://www.youtube.com/watch?v=dne6v6RhnA8
@@ -196,7 +196,7 @@
   description: 'TRACK 6
 
     https://destroywithscience.bandcamp.com/album/level-2-weekend'
-  createdAt: '2020-08-20T00:00:00Z'
+  createdAt: '2020-08-20T00:00+00:00'
 
 - type: youtube
   url: https://www.youtube.com/watch?v=iqxHNCOdOO8
@@ -204,7 +204,7 @@
   description: 'TRACK 5
 
     https://destroywithscience.bandcamp.com/album/level-2-weekend'
-  createdAt: '2020-08-20T00:00:00Z'
+  createdAt: '2020-08-20T00:00+00:00'
 
 - type: youtube
   url: https://www.youtube.com/watch?v=wgFC58XI_5U
@@ -212,7 +212,7 @@
   description: 'TRACK 4
 
     https://destroywithscience.bandcamp.com/album/level-2-weekend'
-  createdAt: '2020-08-20T00:00:00Z'
+  createdAt: '2020-08-20T00:00+00:00'
 
 - type: youtube
   url: https://www.youtube.com/watch?v=kKH8TXglkrc
@@ -220,7 +220,7 @@
   description: 'TRACK 3
 
     https://destroywithscience.bandcamp.com/album/level-2-weekend'
-  createdAt: '2020-08-20T00:00:00Z'
+  createdAt: '2020-08-20T00:00+00:00'
 
 - type: youtube
   url: https://www.youtube.com/watch?v=vDu3zoA3Blg
@@ -228,8 +228,7 @@
   description: 'TRACK 2
 
     https://destroywithscience.bandcamp.com/album/level-2-weekend'
-  createdAt: '2020-08-20T00:00:00Z'
-
+  createdAt: '2020-08-20T00:00+00:00'
 
 - type: youtube
   url: https://www.youtube.com/watch?v=BahpJn5hED0
@@ -237,8 +236,7 @@
   description: 'TRACK 1
 
     https://destroywithscience.bandcamp.com/album/level-2-weekend'
-  createdAt: '2020-08-20T00:00:00Z'
-
+  createdAt: '2020-08-20T00:00+00:00'
 
 - type: facebook
   url: https://www.facebook.com/matt.mckegg/videos/10224740396958821/
@@ -417,7 +415,7 @@
 
 - type: soundcloud
   url: https://soundcloud.com/destroy-with-science/arthack-20-feb-2020
-  createdAt: 2020-02-21T04:09:12.000Z
+  createdAt: 2020-02-21T04:09:12+00:00
   title: Art~Hack 20 February 2020
   description: arrrrttt~haccckkkkkkkk 🧟🧟🧟🧟🧟🧟
 
@@ -514,7 +512,7 @@
 
 - type: soundcloud
   url: https://soundcloud.com/destroy-with-science/merge-with-the-machine
-  createdAt: 2018-11-17T05:46:41.000Z
+  createdAt: 2018-11-17T05:46:41+00:00
   title: Merge With The Machine (live at Art~Hack)
   description: |-
     Full floofy doof session, recorded live at Art~Hack Wellington (15 November 2018)! Featuring Mikey on the vocal loops, and Ben tearing it up on the Monologue at the very end!
@@ -724,7 +722,7 @@
 
 - type: soundcloud
   url: 'https://soundcloud.com/destroy-with-science/arthack-jam-night-8-march-2018'
-  createdAt: 2018-03-11T03:21:34.000Z
+  createdAt: 2018-03-11T03:21:34+00:00
   title: 'Art~Hack Jam Night: 8 March 2018'
   description: Featuring Matt (DWS), Ed (Space-Ed) and Ben (Skeezy Vibes)!
 
@@ -848,7 +846,7 @@
 
 - type: soundcloud
   url: https://soundcloud.com/destroy-with-science/dws-space-ed-live-jamming-at-arthack-14-december-2017
-  createdAt: 2017-12-15T13:33:24.000Z
+  createdAt: 2017-12-15T13:33:24+00:00
   title: DWS + SPACE-ED live jamming at Art~Hack (14 December 2017)
   description: |-
     Recorded live at Art~Hack, Wellington. Trimmed and normalized before uploading.
@@ -974,13 +972,13 @@
 
 - type: youtube
   url: https://www.youtube.com/watch?v=ErdPQLGbaQ0
-  createdAt: 2017-05-25
+  createdAt: 2017-05-25T00:00:00+13:00
   title: SPEAKERHAMMER at Art~Hack Jam Night (25 May 2017)
   description: And we're back with another Matt + Ben electrojam. This time Ben mixes it up a little with the GEEE-TAW!
 
 - type: youtube
   url: https://www.youtube.com/watch?v=PzYaBOra6PA
-  createdAt: 2017-04-27
+  createdAt: 2017-04-27T00:00:00+13:00
   title: 'Art~Hack Jam Night: 28 April 2017'
   description: |-
     Featuring Matt on the JavaScript and Ben on the Analog synths!
@@ -996,7 +994,7 @@
 
 - type: soundcloud
   url: https://soundcloud.com/destroy-with-science/mind-gap
-  createdAt: 2016-07-29T05:51:55.000Z
+  createdAt: 2016-07-29T05:51:55+00:00
   title: Mind Gap
   description: |-
     Playing with some sounds and yeah, this happened.
@@ -1007,7 +1005,7 @@
 
 - type: youtube
   url: https://www.youtube.com/watch?v=jPghHPxdKb8
-  createdAt: 2016-06-22
+  createdAt: 2016-06-22T00:00:00+13:00
   title: CYBORG a/v jam at Art~Hack (with DWS + cyberboy666)
   description: |-
     This is the third time me and Tim have got together and jammed some improvised tunes and blasted some raw analogue visuals. Andy joins us this time augmenting the pixels with some digital effects.
@@ -1021,27 +1019,27 @@
 
 - type: soundcloud
   url: https://soundcloud.com/destroy-with-science/live-at-arthack-full-set-7-july-2016
-  createdAt: 2016-07-08T04:01:51.000Z
+  createdAt: 2016-07-08T04:01:51+00:00
   title: Live at Art~Hack, full set (7 July 2016)
   description: Another "Matt plays the hits" performed and recorded using Loop Drop (loopjs.com) live at Art~Hack, Wellington.
 
 
 - type: youtube
   url: https://www.youtube.com/watch?v=qvh_rLvYIPk
-  createdAt: '2016-06-18'
+  createdAt: '2016-06-18T00:00:00+13:00'
   title: 'Live at 1st Assembly ::: Jamming with Loop Drop'
   description: |-
     Improvised and performed by Matt McKegg (https://soundcloud.com/destroy-with-s...) using Loop Drop (http://loopjs.com) and Novation Launch hardware at 1st Assembly in Lower Hutt, NZ.
 
 - type: youtube
   url: https://www.youtube.com/watch?v=9wwNhe8GP_U
-  createdAt: '2016-06-09'
+  createdAt: '2016-06-09T00:00:00+13:00'
   title: 'DWS + cyberboy666 ::: a/v jam session 02'
   description: Recorded live at Art~Hack on the 9th of June 2016.
 
 - type: youtube
   url: https://www.youtube.com/watch?v=mx6WQgfNha4
-  createdAt: '2016-06-07'
+  createdAt: '2016-06-07T00:00:00+13:00'
   title: DESTROY WITH SCIENCE live at Camp JS VII (full set)
   description: |-
     Visuals by Hugh Kennedy (http://hughsk.io)
@@ -1052,25 +1050,25 @@
 
 - type: youtube
   url: https://www.youtube.com/watch?v=IaXdyyUfE_w
-  createdAt: '2016-05-19'
+  createdAt: '2016-05-19T00:00:00+13:00'
   title: DESTROY WITH SCIENCE + cyberboy666 (live at Art~Hack)
   description: Improvised and performed live at Art~Hack, Wellington. Music + Lights by Matt McKegg (soundcloud.com/destroy-with-science) using Loop Drop (loopjs.com) with Novation Launchpads. Visuals by Tim Caldwell (vimeo.com/user43368831) using a bunch of crazy analogue gear!
 
 - type: vimeo
   url: 'https://vimeo.com/166426029'
-  createdAt: '2016-05-12 16:54:40'
+  createdAt: '2016-05-12T16:54:40+00:00'
   title: Sessions @ The Red Vic - Fanotron
   description: Tom, a recovering English physicist currently living in New Zealand, had a 2 day layover in San Francisco, but luckily missed his flight to London by 15 minutes and ended up staying at The Red Vic as a result of a tip off from an old sailing buddy. He had with him, in a mysterious silver flight case, an analogue optical synth that had he designed and constructed one rainy afternoon. Here is an excerpt from his 20 minute performance. This odd device is named Fanotron and you can see some of his other fantastically nerdy projects at headchip.net
 
 - type: vimeo
   url: 'https://vimeo.com/163121953'
-  createdAt: '2016-04-16 22:06:55'
+  createdAt: '2016-04-16T22:06:55+00:00'
   title: welcome to the PLEASUREDOME
   description: a live analogue visual set
 
 - type: soundcloud
   url: 'https://soundcloud.com/destroy-with-science/live-at-arthack-28-april-2016'
-  createdAt: '2016-04-29T04:27:06.000Z'
+  createdAt: '2016-04-29T04:27:06+00:00'
   title: Live at Art~Hack (28 April 2016)
   description: |-
     Improvised and recorded live at Art~Hack, Wellington using Loop Drop (loopjs.com) and Novation Launch controllers.
@@ -1105,7 +1103,7 @@
 
 - type: soundcloud
   url: 'https://soundcloud.com/destroy-with-science/live-at-arthack-full-set-14-january-2016'
-  createdAt: '2016-01-15T05:32:41.000Z'
+  createdAt: '2016-01-15T05:32:41+00:00'
   title: Live At Art~Hack, Full Set (14 January 2016)
   description: |-
     Full set performed and recorded live at Art~Hack, Wellington using Loop Drop (loopjs.com). Trimmed and mastered with Ableton Live.
@@ -1120,7 +1118,7 @@
 
 - type: soundcloud
   url: 'https://soundcloud.com/destroy-with-science/i-am-not-a-robot'
-  createdAt: '2015-12-31T03:54:35.000Z'
+  createdAt: '2015-12-31T03:54:35+00:00'
   title: I Am Not A Robot
   description: |-
     Drum machines and you.
@@ -1132,21 +1130,21 @@
 
 - type: soundcloud
   url: 'https://soundcloud.com/destroy-with-science/cyphers-red-pill'
-  createdAt: '2015-12-04T06:52:14.000Z'
+  createdAt: '2015-12-04T06:52:14+00:00'
   title: Cypher's Red Pill (Art~Hack, 3 December 2015)
   description: |-
     Improvised and recorded live at Art~Hack, Wellington using Loop Drop (loopjs.com).
 
 - type: soundcloud
   url: 'https://soundcloud.com/destroy-with-science/eeyore-likes-to-party'
-  createdAt: '2015-11-27T06:15:44.000Z'
+  createdAt: '2015-11-27T06:15:44+00:00'
   title: Eeyore Likes To Party (Art~Hack, 26 November 2015)
   description: |-
     Improvised and recorded live at Art~Hack, Wellington using Loop Drop (loopjs.com).
 
 - type: soundcloud
   url: 'https://soundcloud.com/destroy-with-science/the-hallows-eve'
-  createdAt: '2015-10-30T03:49:18.000Z'
+  createdAt: '2015-10-30T03:49:18+00:00'
   title: The Hallows Eve (Art~Hack, 29 October 2015)
   description: |-
     A festive little mix this week.
@@ -1160,7 +1158,7 @@
 
 - type: soundcloud
   url: 'https://soundcloud.com/destroy-with-science/whistling-for-tidbits'
-  createdAt: '2015-10-16T01:50:45.000Z'
+  createdAt: '2015-10-16T01:50:45+00:00'
   title: Whistling For Tidbits (Art~Hack, 15 October 2015)
   description: |-
     Improvised and recorded live at Art~Hack, Wellington using Loop Drop (loopjs.com).
@@ -1171,7 +1169,7 @@
 
 - type: soundcloud
   url: 'https://soundcloud.com/destroy-with-science/mainframe-full-set-8-october-2015'
-  createdAt: '2015-10-09T08:41:36.000Z'
+  createdAt: '2015-10-09T08:41:36+00:00'
   title: Mainframe, full set (Art~Hack, 8 October 2015)
   description: |-
     Improvised and recorded live at Art~Hack, Wellington using Loop Drop (loopjs.com)
@@ -1182,7 +1180,7 @@
 
 - type: soundcloud
   url: 'https://soundcloud.com/destroy-with-science/companion-live-at-arthack'
-  createdAt: '2015-09-18T06:44:47.000Z'
+  createdAt: '2015-09-18T06:44:47+00:00'
   title: Companion (Art~Hack, 18 September 2015)
   description: |-
     Improvised and recorded live at Art~Hack, Wellington using Loop Drop (loopjs.com)
@@ -1191,14 +1189,14 @@
 
 - type: youtube
   url: 'https://www.youtube.com/watch?v=DbJKtI9Udog'
-  createdAt: 2015-09-10
+  createdAt: 2015-09-10T00:00:00+13:00
   title: Jamming with Loop Drop - Enter Player Two
   description: Improvised and performed using Loop Drop (http://loopjs.com) and Novation Launch controllers (http://global.novationmusic.com/launch).
 
 
 - type: soundcloud
   url: 'https://soundcloud.com/destroy-with-science/wat-megamix-3-september-2015'
-  createdAt: '2015-09-04T08:05:44.000Z'
+  createdAt: '2015-09-04T08:05:44+00:00'
   title: Obvious To Everyone (3 September 2015)
   description: |-
     Improvised and recorded live at Art~Hack, Wellington using Loop Drop (loopjs.com)
@@ -1209,7 +1207,7 @@
 
 - type: soundcloud
   url: 'https://soundcloud.com/destroy-with-science/chillhack'
-  createdAt: '2015-08-28T14:07:05.000Z'
+  createdAt: '2015-08-28T14:07:05+00:00'
   title: Uranium Breath (Art~Hack, 27 August 2015)
   description: |-
     Improvised and performed using Loop Drop (loopjs.com).
@@ -1220,7 +1218,7 @@
 
 - type: soundcloud
   url: 'https://soundcloud.com/destroy-with-science/rescued-from-arthack'
-  createdAt: '2015-08-21T07:45:06.000Z'
+  createdAt: '2015-08-21T07:45:06+00:00'
   title: Rescued From Art~Hack (21 August 2015)
   description: |-
     2001 called, it wants its theme song back...
@@ -1230,13 +1228,13 @@
 
 - type: vimeo
   url: 'https://vimeo.com/136783297'
-  createdAt: '2015-08-19 20:57:54'
+  createdAt: '2015-08-19T20:57:54+00:00'
   title: Fre3Formd Hop Pulley Jig at Art~Hack Wellington
   description: that time at Art~Hack Wellington when Gordon brought in 3d printed dremel jig and made some hop pulleys for his open source delta printer at fre3formd.co.nz/.
 
 - type: soundcloud
   url: 'https://soundcloud.com/destroy-with-science/otter-rave-live-at-arthack'
-  createdAt: '2015-08-06T11:00:17.000Z'
+  createdAt: '2015-08-06T11:00:17+00:00'
   title: Otter Rave (Art~Hack, 6 August 2015)
   description: |-
     10 minute rave at Art~Hack turned into a little bit more.
@@ -1249,7 +1247,7 @@
 - type: facebook
   url: 'https://www.facebook.com/kellective/videos/10153463944719512'
   permalinkUrl: "/groups/arthacknz/permalink/717663908380437/"
-  createdAt: '2015-07-29T11:12:00+0000'
+  createdAt: '2015-07-29T11:12:00+00:00'
   description: |-
     This night was particularly shiny  :)
     Sometimes it is quiet and sometimes there is yoga.
@@ -1258,7 +1256,7 @@
 
 - type: soundcloud
   url: 'https://soundcloud.com/destroy-with-science/live-at-arthack-wellington-full-set'
-  createdAt: '2015-07-10T09:47:26.000Z'
+  createdAt: '2015-07-10T09:47:26+00:00'
   title: Live at Art~Hack, Full Set (9 July 2015)
   description: |-
     Recorded direct from line out. Improvised and performed entirely with Loop Drop (loopjs.com).
@@ -1268,5 +1266,5 @@
 - type: facebook
   url: 'https://www.facebook.com/kellective/videos/10153463934564512'
   permalinkUrl: "/groups/arthacknz/permalink/717660855047409/"
-  createdAt: '2015-07-29T10:58:17+0000'
+  createdAt: '2015-07-29T10:58:17+00:00'
   description: Mikey TheHumans awesome LED + sound project
