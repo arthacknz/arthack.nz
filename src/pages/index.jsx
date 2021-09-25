@@ -1,31 +1,30 @@
 import React from 'react'
-import { Flex, Text, Image, Link } from 'theme-ui'
-// import { StaticQuery, graphql } from 'gatsby'
-// import Img from 'gatsby-image'
+import { Box, Button, Flex, Text, Image, Link } from 'theme-ui'
 import Emoji from 'a11y-react-emoji'
-import { FaFacebook, FaYoutube } from 'react-icons/fa'
+import { use100vh } from 'react-div-100vh'
 
 import icon from '../images/icon.png'
 import Layout from '../components/layout'
-import Gallery from '../components/gallery'
 
 const meta = {
   facebookUrl: 'https://www.facebook.com/groups/714447698702058/',
-  youtubeUrl: 'https://www.youtube.com/channel/UCSkR9Zqo9Cf-kmOoGYupy7Q'
+  peertubeUrl: 'https://tube.arthack.nz/video-channels/arthacknz/videos'
 }
 
 function LandingPage () {
-  return <Layout header={<Hero />}><GallerySection /></Layout>
+  return <Layout><Hero /></Layout>
 }
 
 export default LandingPage
 
 function Hero () {
+  const fullHeight = use100vh() || '100vh'
+
   return (
     <Flex
       as='header'
       sx={{
-        height: '100vh',
+        height: fullHeight,
         padding: [3, 4, 5],
         flexDirection: 'column',
         justifyContent: 'center',
@@ -55,7 +54,7 @@ function Hero () {
           sx={{
             padding: 3,
             color: 'white',
-            fontFamily: 'headline',
+            fontFamily: 'mono',
             fontWeight: 'bold',
             flex: ['100%', 1, 1],
             order: [0, 1, 1],
@@ -97,7 +96,7 @@ function Hero () {
           padding: 3,
           color: 'white',
           fontSize: [4, 5, 6],
-          fontFamily: 'headline',
+          fontFamily: 'mono',
           fontWeight: 'bold',
           lineHeight: 2,
           flex: 2,
@@ -127,44 +126,66 @@ function Hero () {
       >
         A social gathering for creative tech in Wellington, Aotearoa
       </Text>
-      <SocialIcons isWhite />
+      <SocialIcons />
     </Flex>
   )
-}
-
-function GallerySection () {
-  return <Gallery />
 }
 
 /* utils */
-function Section (props) {}
-
 function SocialIcons (props) {
-  const { isWhite } = props
   return (
-    <Flex sx={{ flexDirection: 'row', justifyContent: 'center', alignItems: 'center' }}>
-      <Link sx={{ marginX: 3 }} href={meta.facebookUrl}>
-        <FaFacebook size={'4em'} color={isWhite ? 'white' : '#3b5998'} />
-      </Link>
-      <Link sx={{ marginX: 3 }} href={meta.youtubeUrl}>
-        <FaYoutube size={'4em'} color={isWhite ? 'white' : '#e52d27'} />
-      </Link>
+    <Flex sx={{
+      flexDirection: 'row',
+      justifyContent: 'center',
+      alignItems: 'center',
+      fontFamily: 'mono',
+      fontSize: [4, 5, 6]
+    }}>
+      <SocialIconButton
+        href={meta.facebookUrl}
+        text='Community'
+        icons={[
+          <Emoji symbol='😺' label='smiling cat' />,
+          <Emoji symbol='💬' label='speech balloon' />
+        ]}
+      />
+      <SocialIconButton
+        href={meta.peertubeUrl}
+        text='Content'
+        icons={[
+          <Emoji symbol='🔊' label='speaker high volume' />,
+          <Emoji symbol='📺' label='television' />
+        ]}
+      />
     </Flex>
   )
 }
 
-function PrettyLink (props) {
-  const { href } = props
+function SocialIconButton (props) {
+  const { href, text, icons } = props
+
   return (
-    <Link
+    <Button
+      as={Link}
       href={href}
-      target='_window'
       sx={{
-        color: 'primary.1',
-        textDecoration: 'none',
-        ':hover': { textDecoration: 'underline' }
+        marginX: 3,
+        backgroundColor: 'white',
+        border: '4px solid black',
+        display: 'flex',
+        flexDirection: 'column'
       }}
-      {...props}
-    />
+    >
+      <Text sx={{ padding: 2, color: 'black' }}>
+        {text}
+      </Text>
+      <Box sx={{ padding: 2 }}>
+        {icons.map((icon) => (
+          <Box sx={{ display: 'inline-block', paddingX: 2 }}>
+            {icon}
+          </Box>
+        ))}
+      </Box>
+    </Button>
   )
 }

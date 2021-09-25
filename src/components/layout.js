@@ -5,12 +5,12 @@ import reset from 'emotion-reset'
 
 import SEO from './seo'
 
-import 'typeface-ibm-plex-sans'
-import 'typeface-ibm-plex-serif'
+// import 'typeface-ibm-plex-sans'
+// import 'typeface-ibm-plex-serif'
 import 'typeface-ibm-plex-mono'
 
 const Layout = ({ header, children }) => (
-  <Main>
+  <Box as='main'>
     <SEO
       keywords={[
         'art',
@@ -23,7 +23,11 @@ const Layout = ({ header, children }) => (
         'wellington',
         'new zealand',
         'aotearoa',
+        'live',
         'synth',
+        'jam',
+        'music',
+        'maker',
         'solarpunk',
         'peer-to-peer'
       ]}
@@ -41,26 +45,8 @@ const Layout = ({ header, children }) => (
       `}
     />
 
-    {header}
-    <Body>{children}</Body>
-  </Main>
+    {children}
+  </Box>
 )
 
-function Main (props) {
-  return <Box as='main' {...props} />
-}
-
-function Body (props) {
-  return <Flex flexDirection='column' {...props} />
-}
 export default Layout
-
-export function withLayout (PageComponent) {
-  return function PageWithLayout (props) {
-    return (
-      <Layout>
-        <PageComponent {...props} />
-      </Layout>
-    )
-  }
-}

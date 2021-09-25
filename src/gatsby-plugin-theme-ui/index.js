@@ -40,11 +40,6 @@ var fonts = {
   sans: 'IBM Plex Sans',
   mono: 'IBM Plex Mono'
 }
-fonts.headline = fonts.mono
-fonts.heading = fonts.sans
-fonts.body = fonts.serif
-fonts.link = fonts.sans
-fonts.code = fonts.mono
 
 export default {
   ...baseTheme,
